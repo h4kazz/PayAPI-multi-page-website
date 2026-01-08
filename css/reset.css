@@ -1,0 +1,111 @@
+/* reset.css */
+
+/* 1) Box sizing: predictable layouts */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2) Remove default margin/padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 3) Improve text rendering and default typography */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-size: 100%;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* 4) Media defaults: make media responsive by default */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 5) Form elements: inherit fonts and remove odd defaults */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* 6) Links: remove default underline quirks, keep accessible behavior */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+/* 7) Lists: remove bullets/numbers by default (opt-in later if needed) */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 8) Tables: consistent border behavior */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 9) Headings and text elements: avoid unexpected font sizing */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 10) Prevent text overflow in common containers */
+#root,
+#__next {
+  isolation: isolate;
+}

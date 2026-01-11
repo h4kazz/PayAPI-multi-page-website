@@ -6,3 +6,69 @@
 
 /* Footer import */
 @import url("footer.css");
+
+/* Hero styles */
+
+.hero {
+    background-color: #EDF3F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero>svg {}
+
+.text_start {
+    font-size: 32px;
+    font-family: 'DM Serif Display', serif;
+    color: #36536B;
+    margin: 27.27px 24px 13px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    line-height: 36px;
+}
+
+.hero {
+    position: relative;
+    /* Needed for absolute positioning inside */
+    background-color: #EDF3F8;
+}
+
+.email__box {
+    
+    left: 24px;
+
+    width: 327px;
+    height: 48px;
+
+    border-radius: 24px;
+    opacity: 1; 
+    border: 1px solid #36536B33;
+
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    
+    box-sizing: border-box;
+    margin-bottom: 16px;
+
+    background-color: #FFFFFF; /* <-- makes the box white */
+}
+
+.email__box input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    line-height: 17px;
+    font-size: 17px;
+    font-family: 'PublicSans-Bold', sans-serif;
+    color: #36536B;  /* <-- visible dark text on white background */
+    background: transparent; /* transparent so the input inherits parent white */
+    opacity: 1; /* remove the 50% opacity */
+}
+
+.email__box input::placeholder {
+    color: #9AA6B2; /* gray placeholder */
+    opacity: 1;      /* make placeholder fully visible */
+}

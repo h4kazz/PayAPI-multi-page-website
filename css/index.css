@@ -16,7 +16,7 @@
     align-items: center;
 }
 
-.hero>svg {}
+
 
 .text_start {
     font-size: 32px;
@@ -63,12 +63,63 @@
     line-height: 17px;
     font-size: 17px;
     font-family: 'PublicSans-Bold', sans-serif;
-    color: #36536B;  /* <-- visible dark text on white background */
-    background: transparent; /* transparent so the input inherits parent white */
-    opacity: 1; /* remove the 50% opacity */
+    color: #36536B;  
+    background: transparent; /
 }
 
 .email__box input::placeholder {
-    color: #9AA6B2; /* gray placeholder */
-    opacity: 1;      /* make placeholder fully visible */
+    color: #9AA6B2; 
+    opacity: 1;      
+}
+
+.email__button {
+  
+    left: 24px;
+
+    width: 327px;
+    height: 48px;
+
+    border-radius: 24px;
+    border: none;
+
+    background-color: #BA4270; 
+    color: #FFFFFF;
+    font-family: 'PublicSans-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    letter-spacing: -.12px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    transition: background 0.2s ease;
+}
+
+.email__button:hover {
+    background-color: #2E4A5C; /* slightly darker on hover */
+}
+
+.text__Anyquestions {
+    letter-spacing: 0px;
+    width: 225px;
+    height: 17px;
+    font-size: 15px;
+    line-height: 17px;
+    color:#6C8294;
+    margin: 0 76px 80px 74px;
+    font-family: 'PublicSans-regular', sans-serif;
+    white-space: nowrap;
+}
+
+ .contact__us {
+    letter-spacing: 0px;
+    font-size: 15px;
+    line-height: 17px;
+    color:#6C8294;
+    font-family: 'PublicSans-Bold', sans-serif;
+    text-decoration: underline;
+    opacity: 1;
+    font-weight: bold;
 }

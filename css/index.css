@@ -43,7 +43,7 @@
 .demo__email {
   border: none;
   padding-left: 27px;
-  box-shadow: 0 10px 25px rgba(54, 83, 107, 0.15);
+  box-shadow: 0 10px 25px rgba(54, 83, 107, 0.25);
 
   font-family: "Public Sans", sans-serif;
   font-weight: bold;
@@ -61,7 +61,7 @@
 }
 
 .demo__button {
-  background-color: #ba4270;
+  background-color: #BA4270;
   color: #fbfcfe;
   font-family: "Public Sans", sans-serif;
   font-weight: bold;

@@ -13,18 +13,22 @@
     box-sizing: border-box;
 }
 
-.easy-ui {
-    background-color: #edf3f8;
-    padding: 80px 24px;
+.easy-ui__container {
+    max-width: 375px;
+    margin: 0 auto;
 }
 
+.easy-ui {
+    background-color: #edf3f8;
+    padding-top: 80px;
+}
+
+
 .easy-ui-snippet {
-    display: flex;
-    justify-content: center;
+    display: block;
     width: 100%;
     max-width: 328px;
-    margin: 0 auto 48px;
-    margin-bottom: 56px;
+    margin: 0 auto;
     border-radius: 8px;
 }
 
@@ -32,12 +36,11 @@
     display: flex;
     justify-content: center;
     gap: 16px;
-    margin-bottom: 64px;
 }
 
 .easy-ui__phones img {
     width: 100%;
-    max-width: 328x;
+    max-width: 328px;
     height: auto;
 }
 
@@ -48,15 +51,25 @@
     letter-spacing: -0.28px;
     text-align: center;
     color: #36536B;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
 }
 
 .easy-ui__text {
+
     font-family: 'Public Sans', sans-serif;
     font-size: 15px;
     line-height: 28px;
     text-align: center;
     color: #6C8294;
-    margin-bottom: 64px;
     opacity: 1;
+}
+
+.easy-ui__text2 {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #6C8294;
+    opacity: 1;
+    margin-bottom: 88px;
 }

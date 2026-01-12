@@ -105,11 +105,16 @@
     </svg>
 
     <h1 class="text_start">Start building with our APIs for absolutely free.</h1>
-    <form class="email__box">
-      <label for="email" class="sr-only"></label>
-      <input id="email" name="email" type="email" placeholder="Enter email address" required />
+    <form action="submit_email.php" method="post">
+      <div class="email__box">
+        <label for="email" class="sr-only"> </label>
+        <input id="email" name="email" type="email" placeholder="Enter email address" required />
+      </div>
+      <button class="email__button" type="submit">
+        <span>Schedule a Demo</span>
+      </button>
     </form>
-    <button class="email__button"><span>Schedule a Demo</span></button>
+
     <h3 class="text__Anyquestions"> Have any questions? <span class="contact__us"> Contact Us </span></h3>
   </section>
   <footer class="footer">

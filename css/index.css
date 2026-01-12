@@ -16,15 +16,40 @@
 
 .logos {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
   gap: 2.5rem;
-  align-items: center;
-  justify-content: center;
+  place-items: center;
   padding: 0 3rem;
 }
 
-.logos--light {
-  color: #fff;
+.tesla-logo {
+  height: 14px;
+  width: 106px;
+}
+
+.microsoft-logo {
+  height: 26px;
+  width: 119px;
+}
+
+.hewlett-packard-logo {
+  height: 22px;
+  width: 115px;
+}
+
+.oracle-logo {
+  height: 14px;
+  width: 108px;
+}
+
+.google-logo {
+  height: 27px;
+  width: 79px;
+}
+
+.nvidia-logo {
+  height: 21px;
+  width: 113px;
 }
 
 .partners__info {
@@ -44,12 +69,15 @@
 }
 
 .partners__description {
+  display: flex;
+  align-items: center;
+  height: 132px;
   font-family: "Public Sans";
   font-size: 0.938rem;
   line-height: 28px;
   font-weight: 200;
   opacity: 70%;
-  margin: 5px 0 3.5rem;
+  margin: 5px 0 4.25rem;
 }
 
 .partners__button {

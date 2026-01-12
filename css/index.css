@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.easy-ui {
+    background-color: #edf3f8;
+    padding: 80px 24px;
+}
+
+.easy-ui-snippet {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 328px;
+    margin: 0 auto 48px;
+    margin-bottom: 56px;
+    border-radius: 8px;
+}
+
+.easy-ui__phones {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 64px;
+}
+
+.easy-ui__phones img {
+    width: 100%;
+    max-width: 328x;
+    height: auto;
+}
+
+.easy-ui__title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: -0.28px;
+    text-align: center;
+    color: #36536B;
+    margin-bottom: 24px;
+}
+
+.easy-ui__text {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #6C8294;
+    margin-bottom: 64px;
+    opacity: 1;
+}

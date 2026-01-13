@@ -34,20 +34,19 @@
 }
 
 .email__box {
-
-    left: 24px;
     width: 327px;
     height: 48px;
     border-radius: 24px;
-    opacity: 1;
-    border: 1px solid #36536B33;
+    border: 1px solid rgba(54, 83, 107, 0.2);
+    background-color: #FFFFFF;
 
     display: flex;
     align-items: center;
     padding-left: 27px;
     box-sizing: border-box;
     margin-bottom: 16px;
-    background-color: #FFFFFF;
+    opacity: 1;
+    box-shadow: 0 10px 25px rgba(54, 83, 107, 0.25);
 }
 
 .email__box input {
@@ -62,6 +61,7 @@
     color: #36536B;
     opacity: 0.5;
     letter-spacing: 0px;
+    
 }
 
 

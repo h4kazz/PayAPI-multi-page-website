@@ -12,6 +12,7 @@
 .partners {
   background-color: #1b262f;
   padding: 5rem 0;
+  place-items: center;
 }
 
 .logos {

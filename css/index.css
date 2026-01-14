@@ -311,8 +311,12 @@
   color: #6c8294;
   opacity: 1;
   padding-bottom: 53px;
+  padding-left: 23px;
+  padding-right: 24px;
 }
 
 .section{
+background-color: #edf3f8;
+padding-top: 88px;
 padding-bottom: 88px;
 }

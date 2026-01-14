@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/index.css" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
-
-  <title>Home</title>
-</head>
-
-
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Home</title>
+  </head>
+ <body>
 
   <section class="hero">
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125" height="240"
@@ -117,7 +113,22 @@
 
     <h3 class="text__Anyquestions"> Have any questions? <a href="contact.html" class="contact__us">Contact Us</a></h3>
   </section>
-  <footer class="footer">
+
+  <main class="main">
+
+    <!--Main section demo HTML-->
+      <section class="demo">
+        <h2 class="demo__title">Ready to start?</h2>
+        <form class="demo__form" action="/schedule-demo" method="post">
+          <label class="sr-only" for="email-input">Email address</label>
+          <input class="demo__email" type="email" name="email-input" id="email-input" placeholder="Enter email address">
+          <button class="demo__button" type="submit">Schedule a Demo</button>
+        </form>
+      </section>
+    </main>
+  
+    <!--Footer HTML -->
+   <footer class="footer">
     <div class="footer__container">
       <svg class="footer__logo" width="135" height="38" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 38">
         <g fill="#FBFCFE" fill-rule="evenodd">
@@ -149,6 +160,6 @@
       </div>
     </div>
   </footer>
-</body>
+  </body>
 
 </html>

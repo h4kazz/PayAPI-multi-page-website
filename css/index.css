@@ -16,6 +16,8 @@
 .easy-ui__container {
     max-width: 375px;
     margin: 0 auto;
+    padding-left: 23px;
+    padding-right: 23px;
 }
 
 .easy-ui {
@@ -27,8 +29,7 @@
 .easy-ui-snippet {
     display: block;
     width: 100%;
-    max-width: 328px;
-    margin: 0 auto;
+    margin-bottom: 47px;
     border-radius: 8px;
 }
 
@@ -42,6 +43,7 @@
     width: 100%;
     max-width: 328px;
     height: auto;
+    margin-bottom: 61px;
 }
 
 .easy-ui__title {
@@ -62,6 +64,7 @@
     text-align: center;
     color: #6C8294;
     opacity: 1;
+    margin-bottom: 88px;
 }
 
 .easy-ui__text2 {

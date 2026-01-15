@@ -7,3 +7,118 @@
 /* Footer import */
 @import url("footer.css");
 
+.main {
+  background-color: #edf3f8;
+}
+
+/* Main section: contact */
+
+.contact {
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__title {
+  text-align: center;
+  letter-spacing: -0.25px;
+  color: #36536b;
+  font-family: "DM Serif Display", serif;
+  font-size: 32px;
+  padding-bottom: 37px;
+  line-height: 38.6px; 
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact__input,
+.contact__textarea {
+  background-color: #edf3f8;
+  border: none;
+  border-bottom: 1px solid rgba(54, 83, 107, 0.5);
+  width: 327px;
+  padding: 0px 58px 14px 20px;
+}
+
+.contact__input::placeholder,
+.contact__textarea::placeholder {
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    color: #36536B;
+    opacity: 0.5;
+}
+
+.contact__input {
+  height: 42px;
+}
+
+.contact__textarea {
+  height: 89px;
+  resize: none;
+}
+
+.contact__input:focus,
+.contact__textarea:focus {
+  outline: none;
+}
+
+.contact__checkbox-label {
+  display: inline-flex;
+  gap: 26px;
+  align-items: center;
+}
+
+.contact__checkbox {
+  width: 24px;
+  height: 24px;
+
+  flex-shrink: 0;
+
+  appearance: none;
+  -webkit-appearance: none;
+
+  position: relative;
+
+  background-color: #36536b;
+  opacity: 0.25;
+}
+
+.contact__checkbox:checked {
+  background-color: #ba4270;
+  opacity: 1;
+}
+
+.contact__checkbox:checked::after {
+  content: "";
+  position: absolute;
+
+  width: 10px;
+  height: 6px;
+
+  border-left: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+
+  transform: rotate(-45deg);
+
+  top: 50%;
+  left: 50%;
+  translate: -50% -55%;
+}
+
+.contact__checkbox:disabled {
+  background-color: #36536b;
+  opacity: 0.05;
+}
+
+.contact__checkbox-text {
+  flex: 1;
+  color: #36536B;
+  letter-spacing: -0.12px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+}

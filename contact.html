@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/contact.css" />
     <link
       rel="icon"
       type="image/png"
@@ -16,6 +16,77 @@
   </head>
 
   <body>
+    <!--Main HTML-->
+
+    <main class="main">
+      <section class="contact">
+        <h2 class="contact__title">
+          Submit a help request and we'll get in touch shortly.
+        </h2>
+        <form action="" class="contact__form">
+          <div class="contact__field">
+            <label class="sr-only" for="contact-name"></label>
+            <input
+              class="contact__input"
+              type="text"
+              id="contact-name"
+              placeholder="Name"
+            />
+          </div>
+          <div class="contact__field">
+            <label class="sr-only" for="contact-email"></label>
+            <input
+              class="contact__input"
+              type="email"
+              name="contact-email"
+              id="contact-email"
+              placeholder="Email Address"
+            />
+          </div>
+          <div class="contact__field">
+            <label class="sr-only" for="contact-company"></label>
+            <input
+              class="contact__input"
+              type="text"
+              id="contact-company"
+              placeholder="Company Name"
+            />
+          </div>
+          <div class="contact__field">
+            <label class="sr-only" for="contact-title"></label>
+            <input
+              class="contact__input"
+              type="text"
+              id="contact-title"
+              placeholder="Title"
+            />
+          </div>
+          <div class="contact__field">
+            <label class="sr-only" for="contact-message"></label>
+            <textarea
+              class="contact__textarea"
+              name="contact-message"
+              id="contact-message"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <div class="contact__field">
+            <label class="contact__checkbox-label">
+              <input
+                class="contact__checkbox"
+                type="checkbox"
+                name="contact-subscribe"
+                id="contact-subscribe"
+              />
+              <span class="contact__checkbox-text">
+                Stay up-to-date with company announcements and updates to our
+                API
+              </span>
+            </label>
+          </div>
+        </form>
+      </section>
+    </main>
 
     <!--Footer HTML -->
 
@@ -113,6 +184,5 @@
         </div>
       </div>
     </footer>
-
   </body>
 </html>

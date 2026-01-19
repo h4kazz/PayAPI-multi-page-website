@@ -30,12 +30,13 @@
 
 .easy-ui__title {
   font-family: 'DM Serif Display', serif;
-  font-size: 49px;
+  font-size: 36px;
   line-height: 36px;
   letter-spacing: -0.28px;
   text-align: center;
   color: #36536B;
   margin-bottom: 12px;
+  height: 49px;
 }
 
 .easy-ui__text {
@@ -44,7 +45,8 @@
   line-height: 28px;
   text-align: center;
   color: #6C8294;
-  margin-bottom: 88px;
+  margin-bottom: 95px;
+  height: 104px;
 }
 
 
@@ -67,4 +69,5 @@
   text-align: center;
   color: #6C8294;
   margin-bottom: 88px;
+  height: 76px;
 }

@@ -27,7 +27,7 @@
   font-family: "DM Serif Display", serif;
   font-size: 32px;
   padding-bottom: 37px;
-  line-height: 38.6px; 
+  line-height: 38.6px;
 }
 
 .contact__form {
@@ -47,10 +47,10 @@
 
 .contact__input::placeholder,
 .contact__textarea::placeholder {
-    font-family: "Public Sans", sans-serif;
-    font-size: 15px;
-    color: #36536B;
-    opacity: 0.5;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  color: #36536b;
+  opacity: 0.5;
 }
 
 .contact__input {
@@ -58,7 +58,7 @@
 }
 
 .contact__textarea {
-  height: 89px;
+  height: 86px;
   resize: none;
 }
 
@@ -67,10 +67,17 @@
   outline: none;
 }
 
-.contact__checkbox-label {
-  display: inline-flex;
+.contact__field--check {
+  display: flex;
   gap: 26px;
   align-items: center;
+}
+
+.contact__checkbox--title {
+  letter-spacing: -0.12px;
+  color: #36536b;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
 }
 
 .contact__checkbox {
@@ -78,6 +85,7 @@
   height: 24px;
 
   flex-shrink: 0;
+  box-sizing: border-box;
 
   appearance: none;
   -webkit-appearance: none;
@@ -115,10 +123,17 @@
   opacity: 0.05;
 }
 
-.contact__checkbox-text {
-  flex: 1;
-  color: #36536B;
-  letter-spacing: -0.12px;
+.contact__btn {
   font-family: "Public Sans", sans-serif;
-  font-size: 15px;
+  font-weight: bold;
+  color: #36536b;
+
+  border: 1px solid #36536b;
+  border-radius: 24px;
+
+  width: 152px;
+  height: 48px;
+
+  margin-top: 5px;
+  margin-bottom: 87px;
 }

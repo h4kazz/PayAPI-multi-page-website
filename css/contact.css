@@ -37,15 +37,26 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  align-items: center;
 }
 
 .contact__input,
 .contact__textarea {
   background-color: #edf3f8;
   border: none;
+  width: 100%;
+  /* padding: 0px 58px 14px 20px; */
+}
+
+.contact__field {
   border-bottom: 1px solid rgba(54, 83, 107, 0.5);
-  width: 327px;
   padding: 0px 58px 14px 20px;
+  width: 327px;
+  height: 42px;
+}
+
+.textarea {
+  height: 89px;
 }
 
 .contact__input::placeholder,
@@ -56,12 +67,8 @@
   opacity: 0.5;
 }
 
-.contact__input {
-  height: 42px;
-}
-
 .contact__textarea {
-  height: 86px;
+  height: 88px;
   resize: none;
 }
 
@@ -139,6 +146,7 @@
 
   margin-top: 5px;
   margin-bottom: 87px;
+}
 
 /* partners section */
 

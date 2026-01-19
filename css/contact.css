@@ -45,7 +45,10 @@
   background-color: #edf3f8;
   border: none;
   width: 100%;
-  /* padding: 0px 58px 14px 20px; */
+}
+
+.contact__textarea {
+  height: 90px;
 }
 
 .contact__field {
@@ -95,7 +98,6 @@
   height: 24px;
 
   flex-shrink: 0;
-  box-sizing: border-box;
 
   appearance: none;
   -webkit-appearance: none;

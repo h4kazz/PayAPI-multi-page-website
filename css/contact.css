@@ -7,6 +7,9 @@
 /* Footer import */
 @import url("footer.css");
 
+/* Partners section logos stylings from index.css */
+@import url("index.css");
+
 .main {
   background-color: #edf3f8;
 }
@@ -136,4 +139,27 @@
 
   margin-top: 5px;
   margin-bottom: 87px;
+
+/* partners section */
+
+.partners-contact {
+  padding-bottom: 83px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  width: 327px;
+}
+
+.partners-contact__header {
+  font-family: "DM Serif Display", serif;
+  font-size: 1.5rem;
+  line-height: 32px;
+  font-weight: 500;
+  letter-spacing: -0.18px;
+  text-align: center;
+  color: #36536b;
+  opacity: 75%;
+  height: 97px;
 }

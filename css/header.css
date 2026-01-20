@@ -35,7 +35,7 @@
     /* menu hidden by default */
     width: 300px;
     height: 100%;
-    background-color: #36536b;
+    background-color: #1b262f;
     display: flex;
     flex-direction: column;
     transition: right 0.3s ease;

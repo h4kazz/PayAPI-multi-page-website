@@ -9,94 +9,94 @@
 
 /* Hero styles */
 .hero {
-  background-color: #edf3f8;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    background-color: #edf3f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .text_start {
-  font-size: 32px;
-  height: 116px;
-  font-family: "DM Serif Display", serif;
-  color: #36536b;
-  margin: 27.27px 24px 13px;
-  text-align: center;
-  letter-spacing: -0.25px;
-  line-height: 36px;
+    font-size: 32px;
+    height: 116px;
+    font-family: "DM Serif Display", serif;
+    color: #36536b;
+    margin: 27.27px 24px 13px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    line-height: 36px;
 }
 
 .email__box {
-  width: 327px;
-  height: 48px;
-  border-radius: 24px;
-  border: 1px solid rgba(54, 83, 107, 0.2);
-  background-color: #ffffff;
+    width: 327px;
+    height: 48px;
+    border-radius: 24px;
+    border: 1px solid rgba(54, 83, 107, 0.2);
+    background-color: #ffffff;
 
-  display: flex;
-  align-items: center;
-  padding-left: 27px;
-  box-sizing: border-box;
-  margin-bottom: 16px;
-  opacity: 1;
-  box-shadow: 0 10px 25px rgba(54, 83, 107, 0.25);
+    display: flex;
+    align-items: center;
+    padding-left: 27px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    opacity: 1;
+    box-shadow: 0 10px 25px rgba(54, 83, 107, 0.25);
 }
 
 .email__box input {
-  width: 90%;
-  height: 100%;
-  border: none;
-  outline: none;
-  line-height: 17px;
-  font-size: 15px;
-  font-family: "PublicSans-Bold", sans-serif;
-  font-weight: bold;
-  color: #36536b;
-  opacity: 1;
-  letter-spacing: 0px;
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+    line-height: 17px;
+    font-size: 15px;
+    font-family: "PublicSans-Bold", sans-serif;
+    font-weight: bold;
+    color: #36536b;
+    opacity: 1;
+    letter-spacing: 0px;
 }
 
 .email__button {
-  left: 24px;
-  width: 327px;
-  height: 48px;
-  border-radius: 24px;
-  border: none;
-  background-color: #ba4270;
-  color: #ffffff;
-  font-family: "PublicSans-Bold", sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-  cursor: pointer;
-  letter-spacing: -0.12px;
-  line-height: 17px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 24px;
+    left: 24px;
+    width: 327px;
+    height: 48px;
+    border-radius: 24px;
+    border: none;
+    background-color: #ba4270;
+    color: #ffffff;
+    font-family: "PublicSans-Bold", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    letter-spacing: -0.12px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
 }
 
 .email__button span {
-  width: 231px;
-  height: 17px;
-  text-align: center;
-  letter-spacing: -0.12px;
-  font-family: "PublicSans-Bold", sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  color: #fbfcfe;
-  margin: 0 46px 0 50px;
+    width: 231px;
+    height: 17px;
+    text-align: center;
+    letter-spacing: -0.12px;
+    font-family: "PublicSans-Bold", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fbfcfe;
+    margin: 0 46px 0 50px;
 }
 
 .text__Anyquestions {
-  letter-spacing: 0px;
-  width: 225px;
-  height: 17px;
-  font-size: 15px;
-  line-height: 17px;
-  color: #6c8294;
-  margin: 0 76px 80px 74px;
-  font-family: "PublicSans-regular", sans-serif;
-  white-space: nowrap;
+    letter-spacing: 0px;
+    width: 225px;
+    height: 17px;
+    font-size: 15px;
+    line-height: 17px;
+    color: #6c8294;
+    margin: 0 76px 80px 74px;
+    font-family: "PublicSans-regular", sans-serif;
+    white-space: nowrap;
 }
 
 .contact__us {
@@ -109,166 +109,231 @@
     opacity: 1;
     font-weight: bold;
 }
- 
+
 /* partners section */
 
 .partners {
-  background-color: #1b262f;
-  padding: 5rem 0;
-  place-items: center;
+    background-color: #1b262f;
+    padding: 5rem 0;
+    place-items: center;
 }
 
 .logos {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2.5rem;
-  height: 154px;
-  width: 279.15px;
-  align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    height: 154px;
+    width: 279.15px;
+    align-items: center;
 }
 
 .tesla-logo {
-  height: 14.26px;
-  width: 106.02px;
-  padding-left: 2px;
+    height: 14.26px;
+    width: 106.02px;
+    padding-left: 2px;
 }
 
 .microsoft-logo {
-  height: 26px;
-  width: 119px;
-  justify-self: end;
+    height: 26px;
+    width: 119px;
+    justify-self: end;
 }
 
 .hewlett-packard-logo {
-  height: 22px;
-  width: 114.94px;
+    height: 22px;
+    width: 114.94px;
 }
 
 .oracle-logo {
-  height: 13.85px;
-  width: 107.55px;
-  justify-self: end;
+    height: 13.85px;
+    width: 107.55px;
+    justify-self: end;
 }
 
 .google-logo {
-  height: 27px;
-  width: 78.94px;
-  padding-left: 8px;
+    height: 27px;
+    width: 78.94px;
+    padding-left: 8px;
 }
 
 .nvidia-logo {
-  height: 21.27px;
-  width: 112.66px;
+    height: 21.27px;
+    width: 112.66px;
 }
 
 .partners__info {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-family: "DM Serif Display";
-  color: #fbfcfe;
-  padding: 0 1.5rem;
-  margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "DM Serif Display";
+    color: #fbfcfe;
+    padding: 0 1.5rem;
+    margin-top: 3.5rem;
 }
 
 .partners__header {
-  font-size: 2rem;
-  letter-spacing: -0.25px;
-  line-height: 44px;
+    font-size: 2rem;
+    letter-spacing: -0.25px;
+    line-height: 44px;
 }
 
 .partners__description {
-  display: flex;
-  align-items: center;
-  height: 132px;
-  font-family: "Public Sans";
-  font-size: 0.938rem;
-  line-height: 28px;
-  font-weight: 200;
-  opacity: 70%;
-  margin: 5px 0 4.25rem;
+    display: flex;
+    align-items: center;
+    height: 132px;
+    font-family: "Public Sans";
+    font-size: 0.938rem;
+    line-height: 28px;
+    font-weight: 200;
+    opacity: 70%;
+    margin: 5px 0 4.25rem;
 }
 
 .partners__button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-self: center;
-  width: 129px;
-  height: 48px;
-  border: 1px solid #fbfcfe;
-  border-radius: 100px;
-  font-family: "Public Sans";
-  font-size: 0.938rem;
-  letter-spacing: -0.12px;
-  font-weight: 600;
-  transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 129px;
+    height: 48px;
+    border: 1px solid #fbfcfe;
+    border-radius: 100px;
+    font-family: "Public Sans";
+    font-size: 0.938rem;
+    letter-spacing: -0.12px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
 }
 
 .partners__button:hover {
-  background-color: #fbfcfe;
-  color: #1b262f;
+    background-color: #fbfcfe;
+    color: #1b262f;
+}
+
+/* ===== Easy UI section ===== */
+
+.easy-ui {
+    background-color: #edf3f8;
+    padding-top: 80px;
+}
+
+.easy-ui__container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.easy-ui-snippet {
+    display: block;
+    width: 100%;
+    margin-bottom: 47px;
+    border-radius: 8px;
+}
+
+.easy-ui__title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: -0.28px;
+    text-align: center;
+    color: #36536B;
+    margin-bottom: 12px;
+    height: 49px;
+}
+
+.easy-ui__text {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #6C8294;
+    margin-bottom: 95px;
+    height: 104px;
+}
+
+
+.easy-ui__phones {
+    display: flex;
+    justify-content: center;
+}
+
+.easy-ui__phones img {
+    width: 100%;
+    max-width: 328px;
+    height: auto;
+    margin-bottom: 61px;
+}
+
+.easy-ui__text2 {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #6C8294;
+    padding-bottom: 88px;
+    height: 76px;
 }
 
 /* Main section: Demo */
 
 .demo {
-  background-color: #edf3f8;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 80px;
+    background-color: #edf3f8;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
 }
 
 .demo__title {
-  font-size: 32px;
-  font-family: "DM Serif Display", serif;
-  color: #36536b;
-  letter-spacing: -0.25px;
-  text-align: center;
-  margin-bottom: 21px;
-  height: 44px;
+    font-size: 32px;
+    font-family: "DM Serif Display", serif;
+    color: #36536b;
+    letter-spacing: -0.25px;
+    text-align: center;
+    margin-bottom: 21px;
+    height: 44px;
 }
 
 .demo__form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
 }
 
 .demo__email,
 .demo__button {
-  width: 327px;
-  height: 48px;
-  border-radius: 24px;
+    width: 327px;
+    height: 48px;
+    border-radius: 24px;
 }
 
 .demo__email {
-  border: none;
-  padding-left: 27px;
-  box-shadow: 0 10px 25px rgba(54, 83, 107, 0.25);
+    border: none;
+    padding-left: 27px;
+    box-shadow: 0 10px 25px rgba(54, 83, 107, 0.25);
 
-  font-family: "Public Sans", sans-serif;
-  font-weight: bold;
-  color: #36536b;
+    font-family: "Public Sans", sans-serif;
+    font-weight: bold;
+    color: #36536b;
 }
 
 .demo__email:focus {
-  outline: none;
+    outline: none;
 }
 
 .demo__email::placeholder {
-  font-family: "Public Sans", sans-serif;
-  font-weight: bold;
-  opacity: 0.5;
+    font-family: "Public Sans", sans-serif;
+    font-weight: bold;
+    opacity: 0.5;
 }
 
 .demo__button {
-  background-color: #BA4270;
-  color: #fbfcfe;
-  font-family: "Public Sans", sans-serif;
-  font-weight: bold;
-  font-size: 15px;
+    background-color: #BA4270;
+    color: #fbfcfe;
+    font-family: "Public Sans", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .sr-only {
@@ -319,4 +384,5 @@
 background-color: #edf3f8;
 padding-top: 88px;
 padding-bottom: 35px;
+
 }

@@ -41,7 +41,6 @@
     transition: right 0.3s ease;
     padding: 0;
     z-index: 1000;
-    opacity: 0.95;
 }
 
 .side-menu.open {

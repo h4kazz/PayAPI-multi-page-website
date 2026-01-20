@@ -1,74 +1,120 @@
 .header {
-  background-color: #edf3f8;
-  height: 110px;
-  display: flex;
-  align-items: flex-start;  /* pradžia viršuje */
-  padding-top: 40.76px;     /* atstumas nuo viršaus */
+    background-color: #edf3f8;
+    height: 110px;
+    display: flex;
+    align-items: flex-start;
+    /* pradžia viršuje */
+    padding-top: 40.76px;
+    /* atstumas nuo viršaus */
 }
 
 .logo-wrapper {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;            
-  width: 100%;                    
-  padding: 0 24px;                
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 24px;
 }
 
 
 .payAPI_logo {
-  width: 135px;
-  height: 36px;
+    width: 135px;
+    height: 36px;
 }
 
 .menu_logo {
-  width: 28px;
-  height: 17px;
+    width: 28px;
+    height: 17px;
 }
 
-/* --- Slide-out meniu --- */
+/* --- Slide-out menu --- */
 .side-menu {
-  position: fixed;       
+  position: fixed;
   top: 0;
-  right: -250px;         
-  width: 250px;
+  right: -300px;  /* menu hidden by default */
+  width: 300px;
   height: 100%;
-  background-color: #36536B;
+  background-color: #36536b;
   display: flex;
   flex-direction: column;
-  padding: 60px 20px;
-  gap: 20px;
   transition: right 0.3s ease;
-  align-items: center;
+  padding: 0;
+  z-index: 1000;
+  opacity: 0.95;
 }
 
-.side-menu a {
-  font-family: 'Public Sans', sans-serif;
-  color: #FBFCFE;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 20px;
-  opacity: 70%;
-  line-height: 24px;
-  letter-spacing: 0px;
-}
-.side-menu a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-.side-menu button {
-  background-color: white;
-  color: #36536B;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  font-size: 16px;
-  border-radius: 4px;
-}
-
-/* atidarytas meniu */
 .side-menu.open {
   right: 0;
 }
+
+/* Close button */
+.close-menu {
+  position: absolute;
+  top: 49px;
+  right: 24px;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+/* Divider */
+.menu-divider {
+  position: absolute;
+  top: 95px;
+  left: 24px;
+  width: 252px;
+  height: 1px;
+  background: #FBFCFE;
+  opacity: 0.15;
+}
+
+/* Links container */
+.side-menu-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 138px; /* 95px + 43px from divider to Pricing */
+  gap: 32px;         /* spacing between links */
+  align-items: center;
+  font-family: 'Public Sans', sans-serif;
+}
+
+/* Links styling */
+.side-menu-links a {
+   font-family: 'Public Sans', sans-serif;
+    color: #FBFCFE;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 70%;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+/* Button styling */
+.menu_email__button {
+  margin-top: 32px;  /* distance from last link */
+  width: 252px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #ba4270;
+  color: #ffffff;
+  border: none;
+  font-family: "PublicSans-Bold", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.menu_email__button span {
+  width: 100%;
+  text-align: center;
+  letter-spacing: -0.12px;
+  font-weight: bold;
+  color: #fbfcfe;
+}
+
 

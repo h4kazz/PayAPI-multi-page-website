@@ -6,6 +6,17 @@
 
 /* Footer import */
 @import url("footer.css");
+/* Header CSS*/
+
+.header {
+    background-color: #edf3f8;
+    height: 110px;
+    display: flex;
+    align-items: flex-start;
+    /* pradžia viršuje */
+    padding-top: 40.76px;
+    /* atstumas nuo viršaus */
+}
 
 /* ===== About section ===== */
 

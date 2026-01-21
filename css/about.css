@@ -11,7 +11,6 @@
 
 .about_section {
     background-color: #edf3f8;
-    padding-top: 80px;
     padding-bottom: 80px;
 }
 
@@ -21,7 +20,6 @@
     padding: 0 24px;
 }
 
-/* MAIN TITLE */
 .about_main_title {
     font-family: "DM Serif Display", serif;
     font-size: 32px;
@@ -30,9 +28,9 @@
     text-align: center;
     color: #36536B;
     margin-bottom: 44px;
+    height: 152px;
 }
 
-/* SECTION TITLES */
 .about_title {
     font-family: "DM Serif Display", serif;
     font-size: 24px;
@@ -43,7 +41,6 @@
     margin-bottom: 8px;
 }
 
-/* PARAGRAPHS */
 .about_text_vision {
     font-family: "Public Sans", sans-serif;
     font-size: 15px;

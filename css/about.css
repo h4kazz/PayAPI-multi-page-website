@@ -1,0 +1,81 @@
+/* Reset css import */
+@import url("reset.css");
+
+/* Font import */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@400;700&display=swap");
+
+/* Footer import */
+@import url("footer.css");
+
+/* ===== About section ===== */
+
+.about_section {
+    background-color: #edf3f8;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about_text_container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* MAIN TITLE */
+.about_main_title {
+    font-family: "DM Serif Display", serif;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.25px;
+    text-align: center;
+    color: #36536B;
+    margin-bottom: 44px;
+}
+
+/* SECTION TITLES */
+.about_title {
+    font-family: "DM Serif Display", serif;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    text-align: center;
+    color: #36536B;
+    margin-bottom: 8px;
+}
+
+/* PARAGRAPHS */
+.about_text_vision {
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #6C8294;
+    margin-bottom: 63px;
+}
+
+.about_text_business {
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #6C8294;
+    margin-bottom: 84px;
+}
+
+.about_text_culture {
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #6C8294;
+    margin-bottom: 63px;
+}
+
+.about_text_people {
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #6C8294;
+    margin-bottom: 59px;
+}

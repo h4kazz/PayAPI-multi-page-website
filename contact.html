@@ -12,7 +12,7 @@
       href="assets/favicon-32x32.png"
     />
 
-    <title>Contanct</title>
+    <title>Contact</title>
   </head>
 
   <body>
@@ -25,64 +25,70 @@
         </h2>
         <form action="" class="contact__form">
           <div class="contact__field">
-            <label class="sr-only" for="contact-name"></label>
+            <label class="sr-only" for="contact-name">Name</label>
             <input
               class="contact__input"
               type="text"
               id="contact-name"
               placeholder="Name"
+              required
             />
           </div>
           <div class="contact__field">
-            <label class="sr-only" for="contact-email"></label>
+            <label class="sr-only" for="contact-email">Email Address</label>
             <input
               class="contact__input"
               type="email"
               name="contact-email"
               id="contact-email"
               placeholder="Email Address"
+              required
             />
           </div>
           <div class="contact__field">
-            <label class="sr-only" for="contact-company"></label>
+            <label class="sr-only" for="contact-company">Company Name</label>
             <input
               class="contact__input"
               type="text"
               id="contact-company"
               placeholder="Company Name"
+              required
             />
           </div>
           <div class="contact__field">
-            <label class="sr-only" for="contact-title"></label>
+            <label class="sr-only" for="contact-title">Title</label>
             <input
               class="contact__input"
               type="text"
               id="contact-title"
               placeholder="Title"
+              required
             />
           </div>
           <div class="contact__field textarea">
-            <label class="sr-only" for="contact-message"></label>
+            <label class="sr-only" for="contact-message">Message</label>
             <textarea
               class="contact__textarea"
               name="contact-message"
               id="contact-message"
               placeholder="Message"
+              required
             ></textarea>
           </div>
           <div class="contact__field--check">
+            <label class="sr-only" for="contact-subscribe">Subscribe</label>
             <input
               class="contact__checkbox"
               type="checkbox"
               name="subscribe"
-              id="subscribe"
+              id="contact-subscribe"
             />
             <p class="contact__checkbox--title">
               Stay up-to-date with company announcements and updates to our API
             </p>
           </div>
 
-          <button class="contact__btn" disabled>Submit</button>
+          <button class="contact__btn">Submit</button>
         </form>
       </section>
       

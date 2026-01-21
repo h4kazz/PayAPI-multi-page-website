@@ -11,7 +11,7 @@
 
 .about_section {
     background-color: #edf3f8;
-    padding-bottom: 80px;
+    padding-bottom: 59px;
 }
 
 .about_text_container {
@@ -57,6 +57,7 @@
     text-align: center;
     color: #6C8294;
     margin-bottom: 84px;
+    height: 160px;
 }
 
 .about_text_culture {
@@ -66,6 +67,7 @@
     text-align: center;
     color: #6C8294;
     margin-bottom: 63px;
+    height: 188px;
 }
 
 .about_text_people {
@@ -74,5 +76,5 @@
     line-height: 28px;
     text-align: center;
     color: #6C8294;
-    margin-bottom: 59px;
+    height: 104px;
 }

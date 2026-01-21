@@ -10,13 +10,130 @@
 
 .header {
     background-color: #edf3f8;
-    height: 110px;
+    height: 131px;
     display: flex;
     align-items: flex-start;
     /* pradžia viršuje */
     padding-top: 40.76px;
     /* atstumas nuo viršaus */
 }
+
+.logo-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 24px;
+}
+
+
+.payAPI_logo {
+    width: 135px;
+    height: 36px;
+}
+
+.menu_logo {
+    width: 28px;
+    height: 17px;
+}
+
+/* --- Slide-out menu --- */
+.side-menu {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    /* menu hidden by default */
+    width: 300px;
+    height: 100%;
+    background-color: #1b262f;
+    display: flex;
+    flex-direction: column;
+    transition: right 0.3s ease;
+    padding: 0;
+    z-index: 1000;
+}
+
+.side-menu.open {
+    right: 0;
+}
+
+/* Close button */
+.close-menu {
+    position: absolute;
+    top: 49px;
+    right: 24px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    z-index: 1100;
+}
+
+/* Divider */
+.menu-divider {
+    position: absolute;
+    top: 95px;
+    left: 24px;
+    width: 252px;
+    height: 1px;
+    background: #FBFCFE;
+    opacity: 0.15;
+}
+
+.side-menu-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 95px;
+    
+    position: relative;
+}
+
+.pricing-link {
+  font-family: 'Public Sans', sans-serif;  
+  font-size: 20px;                         
+  font-weight: bold;                        
+  color: #FBFCFE;                           
+  line-height: 24px;                        
+  letter-spacing: 0px;                      
+  text-decoration: none;                    
+  margin-top: 43px;                         
+  opacity: 0.7;
+}
+
+
+.side-menu-links a+a {
+    margin-top: 32px;
+   
+}
+
+.menu_email__button {
+    margin-top: 32px;
+    width: 252px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #ba4270;
+    color: #ffffff;
+    border: none;
+    font-family: "PublicSans-Bold", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.menu_email__button span {
+    width: 100%;
+    text-align: center;
+    letter-spacing: -0.12px;
+    font-weight: bold;
+    color: #fbfcfe;
+}
+
+
+
 
 /* ===== About section ===== */
 

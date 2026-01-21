@@ -7,6 +7,9 @@
 /* Footer import */
 @import url("footer.css");
 
+/*Header import */
+@import url("header.css");
+
 /* Hero styles */
 .hero {
     background-color: #edf3f8;

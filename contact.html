@@ -29,8 +29,10 @@
             <input
               class="contact__input"
               type="text"
+              name="contact-name"
               id="contact-name"
               placeholder="Name"
+              autocomplete="name"
               required
             />
           </div>
@@ -42,6 +44,7 @@
               name="contact-email"
               id="contact-email"
               placeholder="Email Address"
+              autocomplete="email"
               required
             />
           </div>
@@ -50,8 +53,10 @@
             <input
               class="contact__input"
               type="text"
+              name="contact-company"
               id="contact-company"
               placeholder="Company Name"
+              autocomplete="organization"
               required
             />
           </div>
@@ -60,8 +65,10 @@
             <input
               class="contact__input"
               type="text"
+              name="contact-title"
               id="contact-title"
               placeholder="Title"
+              autocomplete="organization-title"
               required
             />
           </div>
@@ -72,6 +79,7 @@
               name="contact-message"
               id="contact-message"
               placeholder="Message"
+              autocomplete="off"
               required
             ></textarea>
           </div>
@@ -88,7 +96,7 @@
             </p>
           </div>
 
-          <button class="contact__btn">Submit</button>
+          <button class="contact__btn" type="submit">Submit</button>
         </form>
       </section>
       

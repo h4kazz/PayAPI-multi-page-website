@@ -4,7 +4,53 @@
 /* Font import */
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-
 /* Pricing css */
 
+.pricing__container {
+  display: flex;
+  flex-direction: column;
+  background: #edf3f8 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
 
+.pricing__header {
+  display: flex;
+  justify-content: center;
+  font-family: "DM Serif Display", serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #36536b;
+  padding-bottom: 44px;
+  letter-spacing: -0.25px;
+  opacity: 1;
+}
+
+.plan__header {
+  display: flex;
+  justify-content: center;
+  font-family: "DM Serif Display", serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #ba4270;
+  padding-bottom: 9px;
+  letter-spacing: -0.18px;
+  opacity: 1;
+}
+
+.pricing__paragraph {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "PublicSans-Thin_Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0px;
+  opacity: 1;
+  color: #6c8294;
+  padding-bottom: 30px;
+  padding-left: 24px;
+  padding-right: 24px;
+}

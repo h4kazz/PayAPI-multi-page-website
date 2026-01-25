@@ -139,7 +139,7 @@
 
 .about_section {
     background-color: #edf3f8;
-    padding-bottom: 59px;
+      overflow: hidden;
 }
 
 .about_text_container {
@@ -184,8 +184,8 @@
     line-height: 28px;
     text-align: center;
     color: #6C8294;
-    margin-bottom: 84px;
     height: 160px;
+    margin-bottom: 84px;
 }
 
 .about_text_culture {

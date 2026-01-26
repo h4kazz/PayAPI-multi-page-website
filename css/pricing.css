@@ -11,6 +11,8 @@
   flex-direction: column;
   background: #edf3f8 0% 0% no-repeat padding-box;
   opacity: 1;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .pricing__header {
@@ -41,7 +43,6 @@
 
 .pricing__paragraph {
   display: flex;
-  justify-content: center;
   text-align: center;
   font-family: "PublicSans-Thin_Medium", sans-serif;
   font-size: 15px;
@@ -51,6 +52,72 @@
   opacity: 1;
   color: #6c8294;
   padding-bottom: 30px;
-  padding-left: 24px;
-  padding-right: 24px;
 }
+
+.pricing__tag {
+  display: flex;
+  justify-content: center;
+  font-family: "DM Serif Display", serif;
+  font-size: 56px;
+  font-weight: 400;
+  color: #36536b;
+  line-height: 72px;
+  letter-spacing: -0.43px;
+  opacity: 1;
+  padding-bottom: 5px;
+}
+#hr {
+  height: 1px;
+  background: #36536b 0% 0% no-repeat padding-box;
+  opacity: 0.25;
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 31px;
+}
+
+.feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  color: #36536b;
+  font-family: "PublicSans-Thin_Medium", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.column-icon {
+  width: 8px;
+  margin-right: 24px;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.column-text {
+  flex: 1;
+  text-align: left;
+}
+
+.checkmark {
+  width: 8px;
+  height: 4px;
+  border-left: 2px solid #ba4270;
+  border-bottom: 2px solid #ba4270;
+  transform: rotate(-45deg);
+  margin-top: -2px;
+}
+
+.inactive {
+  opacity: 0.5;
+}
+

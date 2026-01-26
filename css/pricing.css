@@ -121,3 +121,35 @@
   opacity: 0.5;
 }
 
+.button__access-wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 55px;
+}
+
+.button__access {
+  font-family: "Public Sans", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #36536b;
+  line-height: 17px;
+  letter-spacing: -0.12px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+
+  border: 1px solid #36536b;
+  border-radius: 24px;
+  background: transparent;
+  cursor: pointer;
+
+  width: 168px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button__access:hover{
+    background-color: #36536B;
+  color: #FFFFFF;
+}

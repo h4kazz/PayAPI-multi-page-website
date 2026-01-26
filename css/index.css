@@ -336,6 +336,11 @@ input::placeholder {
     opacity: 0.5;
 }
 
+input::placeholder {
+  color: #98a8b6; /* change to your color */
+  opacity: 1;
+}
+
 .demo__button {
     background-color: #BA4270;
     color: #fbfcfe;

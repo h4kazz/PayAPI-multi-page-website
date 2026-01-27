@@ -1,3 +1,13 @@
+/* Reset css import */
+@import url("reset.css");
+
+/* Font import */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@400;700&display=swap");
+
+/* Footer import */
+@import url("footer.css");
+/* Header CSS*/
+
 .header {
     background-color: #edf3f8;
     height: 110px;
@@ -10,16 +20,23 @@
 
 .logo-wrapper {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 100%;
-    padding: 0 24px;
+    width: auto;
+    padding: 0;
 }
 
 
 .payAPI_logo {
     width: 135px;
     height: 36px;
+}
+
+.header-inner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
 }
 
 .menu_logo {
@@ -74,26 +91,26 @@
     flex-direction: column;
     align-items: center;
     margin-top: 95px;
-    
+
     position: relative;
 }
 
 .pricing-link {
-  font-family: 'Public Sans', sans-serif;  
-  font-size: 20px;                         
-  font-weight: bold;                        
-  color: #FBFCFE;                           
-  line-height: 24px;                        
-  letter-spacing: 0px;                      
-  text-decoration: none;                    
-  margin-top: 43px;                         
-  opacity: 0.7;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FBFCFE;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-decoration: none;
+    margin-top: 43px;
+    opacity: 0.7;
 }
 
 
 .side-menu-links a+a {
     margin-top: 32px;
-   
+
 }
 
 .menu_email__button {
@@ -122,4 +139,107 @@
     color: #fbfcfe;
 }
 
+/* ===============================
+   TABLET HEADER (≥768px)
+================================ */
+@media (min-width: 768px) {
 
+    /* Header container matches XD: 40px gutters, 688px content width */
+    .header {
+        height: 110px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 40px;
+    }
+
+    .header-inner {
+        width: 100%;
+        max-width: 688px;
+        /* XD tablet width */
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        gap: 64px;
+        /* space between logo and nav group */
+    }
+
+    /* Left: logo wrapper (keep your SVG intact) */
+    .logo-wrapper {
+        width: auto;
+        padding: 0;
+        justify-content: flex-start;
+        gap: 0;
+    }
+
+    .payAPI_logo {
+        width: 135px;
+        height: 38px;
+    }
+
+    /* Hide burger icon on tablet */
+    .menu_logo {
+        display: none;
+    }
+
+    /* Convert the slide-out menu area into an inline nav row */
+    .side-menu {
+        position: static;
+        right: auto;
+        width: auto;
+        height: auto;
+        background: none;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        flex: 1;
+        transition: none;
+        z-index: auto;
+    }
+
+    .menu-divider,
+    .close-menu {
+        display: none;
+    }
+
+    .side-menu-links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        gap: 40px;
+        /* XD spacing between links */
+    }
+
+    /* IMPORTANT: remove the mobile vertical spacing rule in tablet */
+    .side-menu-links a+a {
+        margin-top: 0;
+    }
+
+    .pricing-link {
+        font-family: "Public Sans", sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18px;
+        color: #36536b;
+        opacity: 70%;
+        margin: 0;
+    }
+
+    /* Right: CTA button pinned to the far right */
+    .menu_email__button {
+        margin-top: 0;
+        margin-left: auto;
+        width: 173px;
+        /* closer to XD pill size */
+        height: 48px;
+        padding: 0;
+        border-radius: 24px;
+        font-size: 15px;
+    }
+
+    .menu_email__button span {
+        letter-spacing: -0.12px;
+    }
+}

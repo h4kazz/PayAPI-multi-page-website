@@ -324,6 +324,7 @@ input::placeholder {
     font-family: "Public Sans", sans-serif;
     font-weight: bold;
     color: #36536b;
+    font-size: 15px;
 }
 
 .demo__email:focus {
@@ -334,11 +335,8 @@ input::placeholder {
     font-family: "Public Sans", sans-serif;
     font-weight: bold;
     opacity: 0.5;
-}
-
-input::placeholder {
-  color: #98a8b6; /* change to your color */
-  opacity: 1;
+    font-size: 15px;
+    color: #36536B;
 }
 
 .demo__button {

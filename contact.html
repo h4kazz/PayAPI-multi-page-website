@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -23,30 +23,36 @@
         <h2 class="contact__title">
           Submit a help request and we'll get in touch shortly.
         </h2>
-        <form action="" class="contact__form">
-          <div class="contact__field">
-            <label class="sr-only" for="contact-name">Name</label>
-            <input
-              class="contact__input"
-              type="text"
-              name="contact-name"
-              id="contact-name"
-              placeholder="Name"
-              autocomplete="name"
-              required
-            />
+        <form action="" class="contact__form" novalidate>
+          <div>
+            <div class="contact__field">
+              <label class="sr-only" for="contact-name">Name</label>
+              <input
+                class="contact__input"
+                type="text"
+                name="contact-name"
+                id="contact-name"
+                placeholder="Name"
+                autocomplete="name"
+                aria-describedby="name-error"
+              />
+            </div>
+            <p class="contact__error" id="name-error"></p>
           </div>
-          <div class="contact__field">
-            <label class="sr-only" for="contact-email">Email Address</label>
-            <input
-              class="contact__input"
-              type="email"
-              name="contact-email"
-              id="contact-email"
-              placeholder="Email Address"
-              autocomplete="email"
-              required
-            />
+          <div>
+            <div class="contact__field">
+              <label class="sr-only" for="contact-email">Email Address</label>
+              <input
+                class="contact__input"
+                type="email"
+                name="contact-email"
+                id="contact-email"
+                placeholder="Email Address"
+                autocomplete="email"
+                aria-describedby="email-error"
+              />
+            </div>
+            <p class="contact__error" id="email-error"></p>
           </div>
           <div class="contact__field">
             <label class="sr-only" for="contact-company">Company Name</label>
@@ -56,8 +62,8 @@
               name="contact-company"
               id="contact-company"
               placeholder="Company Name"
+              maxlength="200"
               autocomplete="organization"
-              required
             />
           </div>
           <div class="contact__field">
@@ -68,8 +74,8 @@
               name="contact-title"
               id="contact-title"
               placeholder="Title"
+              maxlength="500"
               autocomplete="organization-title"
-              required
             />
           </div>
           <div class="contact__field textarea">
@@ -79,8 +85,8 @@
               name="contact-message"
               id="contact-message"
               placeholder="Message"
+              maxlength="5000"
               autocomplete="off"
-              required
             ></textarea>
           </div>
           <div class="contact__field--check">
@@ -99,44 +105,46 @@
           <button class="contact__btn" type="submit">Submit</button>
         </form>
       </section>
-      
+
       <!--Partners section HTML -->
-      
+
       <section class="partners-contact">
-      <h3 class="partners-contact__header">Join the thousands of innovators already building with us</h3>
-      <div class="logos">
-        <img
-          src="assets/shared/desktop/tesla.svg"
-          alt="tesla logo."
-          class="tesla-logo"
-        />
-        <img
-          src="assets/shared/desktop/microsoft.svg"
-          alt="microsoft logo."
-          class="microsoft-logo"
-        />
-        <img
-          src="assets/shared/desktop/hewlett-packard.svg"
-          alt="hewlett packard logo."
-          class="hewlett-packard-logo"
-        />
-        <img
-          src="assets/shared/desktop/oracle.svg"
-          alt="oracle logo."
-          class="oracle-logo"
-        />
-        <img
-          src="assets/shared/desktop/google.svg"
-          alt="google logo."
-          class="google-logo"
-        />
-        <img
-          src="assets/shared/desktop/nvidia.svg"
-          alt="nvidia logo."
-          class="nvidia-logo"
-        />
-      </div>
-    </section>
+        <h3 class="partners-contact__header">
+          Join the thousands of innovators already building with us
+        </h3>
+        <div class="logos">
+          <img
+            src="assets/shared/desktop/tesla.svg"
+            alt="tesla logo."
+            class="tesla-logo"
+          />
+          <img
+            src="assets/shared/desktop/microsoft.svg"
+            alt="microsoft logo."
+            class="microsoft-logo"
+          />
+          <img
+            src="assets/shared/desktop/hewlett-packard.svg"
+            alt="hewlett packard logo."
+            class="hewlett-packard-logo"
+          />
+          <img
+            src="assets/shared/desktop/oracle.svg"
+            alt="oracle logo."
+            class="oracle-logo"
+          />
+          <img
+            src="assets/shared/desktop/google.svg"
+            alt="google logo."
+            class="google-logo"
+          />
+          <img
+            src="assets/shared/desktop/nvidia.svg"
+            alt="nvidia logo."
+            class="nvidia-logo"
+          />
+        </div>
+      </section>
     </main>
 
     <!--Footer HTML -->
@@ -235,5 +243,6 @@
         </div>
       </div>
     </footer>
+    <script src="scripts/form-validation.js"></script>
   </body>
 </html>

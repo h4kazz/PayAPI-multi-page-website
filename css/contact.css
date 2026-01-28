@@ -151,6 +151,26 @@
   margin-bottom: 87px;
 }
 
+/* form validation styles */
+
+.contact__input--invalid::placeholder {
+  color: #ff0000;
+}
+
+.contact__field:has(.contact__input--invalid) {
+  border-color: rgba(255, 0, 0, 0.5);
+}
+
+.contact__error {
+  color: #ff0000;
+  opacity: 50%;
+  font-family: "Public Sans", sans-serif;
+  font-size: 11px;
+  letter-spacing: -0.08px;
+  line-height: 15px;
+  margin: 8px 0 0 20px;
+}
+
 /* partners section */
 
 .partners-contact {
@@ -178,9 +198,8 @@
 /* Tablet design: 768px */
 
 @media (min-width: 768px) {
+  /* Tablet demo section css */
 
-    /* Tablet demo section css */
-    
   .demo {
     padding-bottom: 100px;
     gap: 24px;

@@ -24,32 +24,36 @@
           Submit a help request and we'll get in touch shortly.
         </h2>
         <form action="" class="contact__form" novalidate>
-          <div class="contact__field">
-            <label class="sr-only" for="contact-name">Name</label>
-            <input
-              class="contact__input"
-              type="text"
-              name="contact-name"
-              id="contact-name"
-              placeholder="Name"
-              autocomplete="name"
-              pattern="[A-Za-z\s]+"
-              required
-            />
+          <div>
+            <div class="contact__field">
+              <label class="sr-only" for="contact-name">Name</label>
+              <input
+                class="contact__input"
+                type="text"
+                name="contact-name"
+                id="contact-name"
+                placeholder="Name"
+                autocomplete="name"
+                pattern="[A-Za-z\s]+"
+                required
+              />
+            </div>
             <p class="contact__error" id="name-error"></p>
           </div>
-          <div class="contact__field">
-            <label class="sr-only" for="contact-email">Email Address</label>
-            <input
-              class="contact__input"
-              type="email"
-              name="contact-email"
-              id="contact-email"
-              placeholder="Email Address"
-              autocomplete="email"
-              pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$"
-              required
-            />
+          <div>
+            <div class="contact__field">
+              <label class="sr-only" for="contact-email">Email Address</label>
+              <input
+                class="contact__input"
+                type="email"
+                name="contact-email"
+                id="contact-email"
+                placeholder="Email Address"
+                autocomplete="email"
+                pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$"
+                required
+              />
+            </div>
             <p class="contact__error" id="email-error"></p>
           </div>
           <div class="contact__field">

@@ -20,16 +20,18 @@ function validateName() {
 
   if (result) {
     nameError.textContent = result;
-    nameInput.classList.add("is-invalid");
+    nameInput.classList.add("contact__input--invalid");
     return false;
   }
 
   if (nameInput.value.length > 100) {
     nameError.textContent = "Name must be under 100 characters";
+    nameInput.classList.add("contact__input--invalid");
     return false;
   }
 
   nameError.textContent = "";
+  nameInput.classList.remove("contact__input--invalid");
   return true;
 }
 
@@ -40,15 +42,18 @@ function validateEmail() {
 
   if (result) {
     emailError.textContent = result;
+    emailInput.classList.add("contact__input--invalid");
     return false;
   }
 
   if (!emailRegex.test(inputValue)) {
     emailError.textContent = "Please enter valid email address";
+    emailInput.classList.add("contact__input--invalid");
     return false;
   }
 
   emailError.textContent = "";
+  emailInput.classList.remove("contact__input--invalid");
   return true;
 }
 

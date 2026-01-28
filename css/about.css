@@ -1,0 +1,430 @@
+/* Reset css import */
+@import url("reset.css");
+
+/* Font import */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@400;700&display=swap");
+
+/* Footer import */
+@import url("footer.css");
+/* Header CSS*/
+
+.header {
+    background-color: #edf3f8;
+    height: 131px;
+    display: flex;
+    align-items: flex-start;
+    /* pradžia viršuje */
+    padding-top: 40.76px;
+    /* atstumas nuo viršaus */
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 24px;
+}
+
+
+.payAPI_logo {
+    width: 135px;
+    height: 36px;
+}
+
+.menu_logo {
+    width: 28px;
+    height: 17px;
+}
+
+/* --- Slide-out menu --- */
+.side-menu {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    /* menu hidden by default */
+    width: 300px;
+    height: 100%;
+    background-color: #1b262f;
+    display: flex;
+    flex-direction: column;
+    transition: right 0.3s ease;
+    padding: 0;
+    z-index: 1000;
+}
+
+.side-menu.open {
+    right: 0;
+}
+
+/* Close button */
+.close-menu {
+    position: absolute;
+    top: 49px;
+    right: 24px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    z-index: 1100;
+}
+
+/* Divider */
+.menu-divider {
+    position: absolute;
+    top: 95px;
+    left: 24px;
+    width: 252px;
+    height: 1px;
+    background: #FBFCFE;
+    opacity: 0.15;
+}
+
+.side-menu-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 95px;
+
+    position: relative;
+}
+
+.pricing-link {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FBFCFE;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-decoration: none;
+    margin-top: 43px;
+    opacity: 0.7;
+}
+
+
+.side-menu-links a+a {
+    margin-top: 32px;
+
+}
+
+.menu_email__button {
+    margin-top: 32px;
+    width: 252px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #ba4270;
+    color: #ffffff;
+    border: none;
+    font-family: "PublicSans-Bold", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.menu_email__button span {
+    width: 100%;
+    text-align: center;
+    letter-spacing: -0.12px;
+    font-weight: bold;
+    color: #fbfcfe;
+}
+
+
+
+
+/* ===== About section ===== */
+
+.about_section {
+    background-color: #edf3f8;
+      overflow: hidden;
+}
+
+.about_text_container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.about_main_title {
+    font-family: "DM Serif Display", serif;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.25px;
+    text-align: center;
+    color: #36536B;
+    margin-bottom: 44px;
+    height: 152px;
+}
+
+.about_title {
+    font-family: "DM Serif Display", serif;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    text-align: center;
+    color: #36536B;
+    margin-bottom: 8px;
+}
+
+.about_text_vision {
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #6C8294;
+    margin-bottom: 63px;
+}
+
+.about_text_business {
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #6C8294;
+    height: 160px;
+    margin-bottom: 84px;
+}
+
+.about_text_culture {
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #6C8294;
+    margin-bottom: 63px;
+    height: 188px;
+}
+
+.about_text_people {
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #6C8294;
+    height: 104px;
+    margin-bottom: 59px;
+}
+
+
+/* V1-13 CSS starts here */
+
+.info-numbers {
+    background-color: #edf3f8;
+}
+.mobile-img {
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin: 0 0;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    width: 327px;
+    background-color: #36536B;
+    margin: 48px auto 17px;
+    opacity: .25;
+}
+
+.info-numbers {
+    width: 100%;
+}
+
+.text_team_members {
+    text-align: center;
+    letter-spacing: 0px;
+    color: #36536B;
+    opacity: 0.7;
+    height: 21px;
+    width: 327px;
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 100;
+}
+
+.text_number {
+    text-align: center;
+    letter-spacing: -0.43px;
+    color: #BA4270;
+    height: 77px;
+    width: 327px;
+    text-align: center;
+    margin-top: 21px;
+    line-height: 72x;
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    font-weight: 100;
+    margin: 21px auto 13px;
+}
+
+.text_number_last {
+    text-align: center;
+    letter-spacing: -0.43px;
+    color: #BA4270;
+    height: 77px;
+    width: 327px;
+    text-align: center;
+    margin-top: 21px;
+    line-height: 72x;
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    font-weight: 100;
+    margin: 21px auto 0px;
+}
+
+
+
+.text_Offices_in_the_US {
+    text-align: center;
+    letter-spacing: 0px;
+    color: #36536B;
+    opacity: 0.7;
+    height: 21px;
+    width: 327px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.divider-text {
+  display: flex;
+  align-items: center;
+  max-width: 375px;
+  margin: 17px auto 0px; 
+  flex-direction: column;
+}
+.divider_last {
+    width: 100%;
+    height: 1px;
+    width: 327px;
+    background-color: #36536B;
+    margin: -2px auto 55px;
+    opacity: .25;
+    
+}
+
+/* V1-13 CSS ends herec */
+
+/* Demo */
+
+
+.demo {
+    background-color: #edf3f8;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+.demo__title {
+    font-size: 32px;
+    font-family: "DM Serif Display", serif;
+    color: #36536b;
+    letter-spacing: -0.25px;
+    text-align: center;
+    margin-bottom: 21px;
+    height: 44px;
+}
+
+.demo__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.demo__email,
+.demo__button {
+    width: 327px;
+    height: 48px;
+    border-radius: 24px;
+}
+
+.demo__email {
+    border: none;
+    padding-left: 27px;
+    box-shadow: 0 10px 25px rgba(54, 83, 107, 0.25);
+
+    font-family: "Public Sans", sans-serif;
+    font-weight: bold;
+    color: #36536b;
+}
+
+.demo__email:focus {
+    outline: none;
+}
+
+.demo__email::placeholder {
+    font-family: "Public Sans", sans-serif;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+.demo__button {
+    background-color: #BA4270;
+    color: #fbfcfe;
+    font-family: "Public Sans", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+/*    Demo ends here */ 
+
+/* Tablet design: 768px */
+
+@media (min-width: 768px) {
+
+    /* Tablet demo section css */
+    
+  .demo {
+    padding-bottom: 100px;
+    gap: 24px;
+  }
+
+  .demo__title {
+    font-size: 48px;
+    letter-spacing: -0.37px;
+    width: 445px;
+    height: 66px;
+    margin: 0 auto;
+  }
+
+  .demo__form {
+    position: relative;
+    width: 445px;
+    margin-inline: auto; /* works the same way as margin: 0 auto */
+    display: block;
+  }
+
+  .demo__email {
+    width: 100%;
+    height: 48px;
+    padding-left: 27px;
+    padding-right: 190px;
+  }
+
+  .demo__button {
+    position: absolute;
+    right: 0;
+    width: 173px;
+    height: 48px;
+  }
+
+  /* Tablet demo sectio css ends here */
+}

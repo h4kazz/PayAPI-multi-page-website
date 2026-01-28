@@ -33,11 +33,31 @@ function validateName() {
   return true;
 }
 
+function validateEmail() {
+  const result = checkIsEmptyValue(emailInput.value);
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const inputValue = emailInput.value.trim();
+
+  if (result) {
+    emailError.textContent = result;
+    return false;
+  }
+
+  if (!emailRegex.test(inputValue)) {
+    emailError.textContent = "Please enter valid email address";
+    return false;
+  }
+
+  emailError.textContent = "";
+  return true;
+}
+
 form.addEventListener("submit", (e) => {
   const isNameValid = validateName();
+  const isEmailValid = validateEmail();
 
-  if (!isNameValid) {
+  if (!isNameValid || !isEmailValid) {
     e.preventDefault();
-    console.log(isNameValid);
+    console.log(isNameValid, isEmailValid);
   }
 });

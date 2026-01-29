@@ -330,11 +330,11 @@ input::placeholder {
 }
 
 .demo__email::placeholder {
-    font-family: "Public Sans", sans-serif;
-    font-weight: bold;
-    opacity: 0.5;
-    font-size: 15px;
-    color: #36536B;
+  font-family: "Public Sans", sans-serif;
+  font-weight: bold;
+  opacity: 0.5;
+  font-size: 15px;
+  color: #36536b;
 }
 
 .demo__button {
@@ -356,24 +356,22 @@ input::placeholder {
   white-space: nowrap;
   border: 0;
 }
-
-.section__icon {
-  align-content: center;
-}
+/*Payment-services section */
 
 .section__header {
   font-family: "Public Sans", sans-serif;
-  font-weight: bold;
-  size: 18px;
+  font-weight: 700;
+  font-size: 18px;
   color: #36536b;
+  line-height: 25px;
   text-align: center;
   letter-spacing: -0.14px;
   opacity: 1;
-  padding: 35px 23px 18px 24px;
+  margin-bottom: 18px;
 }
 
 .section__icon {
-  margin: auto;
+  margin-bottom: 35px;
   width: 106px;
   height: 106px;
   opacity: 1;
@@ -381,27 +379,31 @@ input::placeholder {
 
 .section__paragraph {
   font-family: "Public Sans", sans-serif;
-  font-weight: 350;
-  letter-spacing: -0.12px;
   text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.12px;
   color: #6c8294;
   opacity: 1;
   padding-bottom: 53px;
-  padding-left: 23px;
-  padding-right: 24px;
 }
 
 .section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #edf3f8;
   padding-top: 88px;
   padding-bottom: 35px;
+  padding-left: 24px;
+  padding-right: 23px;
 }
 
 /* Tablet design: 768px */
 
 @media (min-width: 768px) {
-
-    /* Tablet demo section css */
+  /* Tablet demo section css */
 
   .demo {
     padding-bottom: 100px;

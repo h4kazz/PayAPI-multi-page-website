@@ -1,0 +1,46 @@
+/* Mobile design 375px */
+
+.logos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  height: 154px;
+  width: 279.15px;
+  align-items: center;
+}
+
+.tesla-logo {
+  height: 14.26px;
+  width: 106.02px;
+  padding-left: 2px;
+}
+
+.microsoft-logo {
+  height: 26px;
+  width: 119px;
+  justify-self: end;
+}
+
+.hewlett-packard-logo {
+  height: 22px;
+  width: 114.94px;
+}
+
+.oracle-logo {
+  height: 13.85px;
+  width: 107.55px;
+  justify-self: end;
+}
+
+.google-logo {
+  height: 27px;
+  width: 78.94px;
+  padding-left: 8px;
+}
+
+.nvidia-logo {
+  height: 21.27px;
+  width: 112.66px;
+}
+
+/* Mobile design ends here */

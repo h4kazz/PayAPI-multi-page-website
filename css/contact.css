@@ -56,6 +56,19 @@
   padding: 0px 58px 14px 20px;
   width: 327px;
   height: 42px;
+  color: #36536b;
+}
+
+.contact__field:hover,
+.contact__field:focus,
+.contact__field:has(.contact__input:hover),
+.contact__field:has(.contact__input:focus) {
+  border-color: #36536b;
+}
+
+.contact__field,
+.contact__checkbox {
+  cursor: pointer;
 }
 
 .textarea {
@@ -149,6 +162,34 @@
 
   margin-top: 5px;
   margin-bottom: 87px;
+  transition: all 200ms ease-in;
+}
+
+.contact__btn:hover {
+  background-color: #36536b;
+  color: #fbfcfe;
+}
+
+/* form validation styles */
+
+.contact__input--invalid::placeholder {
+  color: #ff0000;
+}
+
+.contact__field:has(.contact__input--invalid),
+.contact__field:has(.contact__input--invalid:hover),
+.contact__field:has(.contact__input--invalid:focus) {
+  border-color: rgba(255, 0, 0, 0.5);
+}
+
+.contact__error {
+  color: #ff0000;
+  opacity: 50%;
+  font-family: "Public Sans", sans-serif;
+  font-size: 11px;
+  letter-spacing: -0.08px;
+  line-height: 15px;
+  margin: 8px 0 0 20px;
 }
 
 /* partners section */
@@ -178,9 +219,8 @@
 /* Tablet design: 768px */
 
 @media (min-width: 768px) {
+  /* Tablet demo section css */
 
-    /* Tablet demo section css */
-    
   .demo {
     padding-bottom: 100px;
     gap: 24px;

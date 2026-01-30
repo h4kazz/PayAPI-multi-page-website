@@ -4,13 +4,21 @@
 /* Font import */
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-/* Footer import */
-@import url("footer.css");
-
 /*Header import */
 @import url("header.css");
 
-/* Hero styles */
+/* Demo section import */
+@import url("demo-section.css");
+
+/* Partners logo styling import */
+@import url("partners-logos.css");
+
+/* Footer import */
+@import url("footer.css");
+
+/* Mobile design 375px */
+
+/* Hero section styles starts here*/
 .hero {
   background-color: #edf3f8;
   display: flex;
@@ -118,55 +126,14 @@ input::placeholder {
   font-weight: bold;
 }
 
-/* partners section */
+/* Hero section styles ends here*/
+
+/* Partners section styles starts here*/
 
 .partners {
   background-color: #1b262f;
   padding: 5rem 0;
   place-items: center;
-}
-
-.logos {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2.5rem;
-  height: 154px;
-  width: 279.15px;
-  align-items: center;
-}
-
-.tesla-logo {
-  height: 14.26px;
-  width: 106.02px;
-  padding-left: 2px;
-}
-
-.microsoft-logo {
-  height: 26px;
-  width: 119px;
-  justify-self: end;
-}
-
-.hewlett-packard-logo {
-  height: 22px;
-  width: 114.94px;
-}
-
-.oracle-logo {
-  height: 13.85px;
-  width: 107.55px;
-  justify-self: end;
-}
-
-.google-logo {
-  height: 27px;
-  width: 78.94px;
-  padding-left: 8px;
-}
-
-.nvidia-logo {
-  height: 21.27px;
-  width: 112.66px;
 }
 
 .partners__info {
@@ -218,7 +185,9 @@ input::placeholder {
   color: #1b262f;
 }
 
-/* ===== Easy UI section ===== */
+/* Partners section styles ends here*/
+
+/* Easy-ui section styles starts here */
 
 .easy-ui {
   background-color: #edf3f8;
@@ -282,83 +251,15 @@ input::placeholder {
   height: 76px;
 }
 
-/* Main section: Demo */
+/* Easy-ui section styles ends here */
 
-.demo {
-  background-color: #edf3f8;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 80px;
+/* Services section styles starts here */
+
+.services__icon {
+  align-content: center;
 }
 
-.demo__title {
-  font-size: 32px;
-  font-family: "DM Serif Display", serif;
-  color: #36536b;
-  letter-spacing: -0.25px;
-  text-align: center;
-  margin-bottom: 21px;
-  height: 44px;
-}
-
-.demo__form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-}
-
-.demo__email,
-.demo__button {
-  width: 327px;
-  height: 48px;
-  border-radius: 24px;
-}
-
-.demo__email {
-  border: none;
-  padding-left: 27px;
-  box-shadow: 0 10px 25px rgba(54, 83, 107, 0.25);
-  font-family: "Public Sans", sans-serif;
-  font-weight: bold;
-  color: #36536b;
-  font-size: 15px;
-}
-
-.demo__email:focus {
-  outline: none;
-}
-
-.demo__email::placeholder {
-  font-family: "Public Sans", sans-serif;
-  font-weight: bold;
-  opacity: 0.5;
-  font-size: 15px;
-  color: #36536b;
-}
-
-.demo__button {
-  background-color: #ba4270;
-  color: #fbfcfe;
-  font-family: "Public Sans", sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-/*Payment-services section */
-
-.section__header {
+.services__header {
   font-family: "Public Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -377,7 +278,7 @@ input::placeholder {
   opacity: 1;
 }
 
-.section__paragraph {
+.services__paragraph {
   font-family: "Public Sans", sans-serif;
   text-align: center;
   font-weight: 400;
@@ -389,10 +290,7 @@ input::placeholder {
   padding-bottom: 53px;
 }
 
-.section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.services {
   background-color: #edf3f8;
   padding-top: 88px;
   padding-bottom: 35px;
@@ -400,44 +298,6 @@ input::placeholder {
   padding-right: 23px;
 }
 
-/* Tablet design: 768px */
+/* Services section styles starts here */
 
-@media (min-width: 768px) {
-  /* Tablet demo section css */
-
-  .demo {
-    padding-bottom: 100px;
-    gap: 24px;
-  }
-
-  .demo__title {
-    font-size: 48px;
-    letter-spacing: -0.37px;
-    width: 445px;
-    height: 66px;
-    margin: 0 auto;
-  }
-
-  .demo__form {
-    position: relative;
-    width: 445px;
-    margin-inline: auto; /* works the same way as margin: 0 auto */
-    display: block;
-  }
-
-  .demo__email {
-    width: 100%;
-    height: 48px;
-    padding-left: 27px;
-    padding-right: 190px;
-  }
-
-  .demo__button {
-    position: absolute;
-    right: 0;
-    width: 173px;
-    height: 48px;
-  }
-
-  /* Tablet demo sectio css ends here */
-}
+/* Mobile design ends here */

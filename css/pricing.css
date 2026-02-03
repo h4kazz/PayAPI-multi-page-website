@@ -167,6 +167,18 @@ hr {
 
 /* Tablet design starts here */
 
-@media (min-width: 768px) {
-  
+@media screen and (min-width: 768px) {
+  .pricing{
+    padding-left: 39px;
+    padding-right: 33px;
+  }
+.pricing__header{padding-bottom: 57px;
+}
+.pricing__plans-wrapper{
+display: flex;
+gap: 10px;
+}
+ .plan__header{
+  padding-bottom: 16px;
+ }
 }

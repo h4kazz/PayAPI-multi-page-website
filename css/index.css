@@ -38,7 +38,8 @@
 }
 
 input::placeholder {
-  color: #98a8b6; /* change to your color */
+  color: #98a8b6;
+  /* change to your color */
   opacity: 1;
 }
 
@@ -302,3 +303,65 @@ input::placeholder {
 /* Services section styles starts here */
 
 /* Mobile design ends here */
+
+
+/* Tablet design 768 starts here */
+
+/* Partners section starts here */
+
+@media (min-width: 768px) {
+  .partners {
+    background-color: #1b262f;
+    padding: 5rem 0;
+    place-items: center;
+  }
+
+  .partners__info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "DM Serif Display";
+    color: #fbfcfe;
+    padding: 0 1.5rem;
+  }
+
+  .partners__header {
+    font-size: 48px;
+    letter-spacing: -0.37px;
+    line-height: 56px;
+    margin-bottom: 8px;
+  }
+
+  .partners__description {
+    max-width: 456px;
+    margin: 0 auto 40px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 28px;
+    color: #FBFCFE;
+    opacity: 0.7;
+  }
+
+  .partners__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 129px;
+    height: 48px;
+    border: 1px solid #fbfcfe;
+    border-radius: 24px;
+    font-family: "Public Sans";
+    font-size: 0.938rem;
+    letter-spacing: -0.12px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .partners__button:hover {
+    background-color: #fbfcfe;
+    color: #1b262f;
+  }
+
+  /* Partners section ends here */
+}

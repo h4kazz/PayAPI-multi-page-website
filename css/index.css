@@ -254,19 +254,17 @@ input::placeholder {
 
 /* Services section styles starts here */
 
-.services__icon {
-  align-content: center;
-}
-
 .services__header {
   font-family: "Public Sans", sans-serif;
-  font-weight: bold;
-  size: 18px;
+  font-weight: 700;
+  font-size: 18px;
   color: #36536b;
+  line-height: 25px;
   text-align: center;
   letter-spacing: -0.14px;
   opacity: 1;
-  padding: 35px 23px 18px 24px;
+  padding-top: 34px;
+  padding-bottom: 18px;
 }
 
 .services__icon {
@@ -274,24 +272,30 @@ input::placeholder {
   width: 106px;
   height: 106px;
   opacity: 1;
+  align-content: center;
 }
 
 .services__paragraph {
   font-family: "Public Sans", sans-serif;
-  font-weight: 350;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
   letter-spacing: -0.12px;
   text-align: center;
   color: #6c8294;
   opacity: 1;
   padding-bottom: 53px;
-  padding-left: 23px;
-  padding-right: 24px;
 }
 
 .services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #edf3f8;
   padding-top: 88px;
   padding-bottom: 35px;
+  padding-left: 24px;
+  padding-right: 23px;
 }
 
 /* Services section styles starts here */

@@ -305,7 +305,6 @@ input::placeholder {
 
   .hero {
     padding-top: 64px;
-    padding-bottom: 64px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -376,5 +375,6 @@ input::placeholder {
     margin-top: 16px;
     width: auto;
     text-align: center;
+    margin-bottom: 100px;
   }
 }

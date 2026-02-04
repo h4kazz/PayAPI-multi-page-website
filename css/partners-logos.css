@@ -46,18 +46,19 @@
 /* Mobile design ends here */
 
 /* Tablet design 768 starts here */
-@media (min-width: 768px) {
 
+@media (min-width: 768px) {
   .logos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 31px 31px;
     width: 100%;
     max-width: 536px;
     column-gap: 60px;
-    row-gap: 10px;
     justify-items: center;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
+    height: 103px;
   }
 
   .tesla-logo {

@@ -228,3 +228,34 @@
 /* Partners section styles ends here */
 
 /* Mobile design ends here */
+
+/* Tablet design: 768px */
+
+@media (min-width: 768px) {
+  /* Tablet demo contact form section css */
+
+  .contact__title {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.37px;
+    width: 543px;
+    height: 178px;
+    padding: 0;
+    margin-bottom: 48px;
+  }
+
+  .contact__field,
+  .contact__field--check {
+    width: 445px;
+  }
+
+  .contact__checkbox--title {
+    line-height: 25px;
+    height: 45px;
+    letter-spacing: -0.35px;
+  }
+
+  .contact__btn {
+    margin-bottom: 71px;
+  }
+}

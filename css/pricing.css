@@ -133,7 +133,7 @@ hr {
   color: #36536b;
   line-height: 17px;
   letter-spacing: -0.12px;
-  text-decoration: none;
+  
   transition: all 0.2s ease;
 
   border: 1px solid #36536b;
@@ -152,33 +152,48 @@ hr {
   color: #ffffff;
 }
 
-.pricing__icon {
-  margin: auto;
-  width: 106px;
-  height: 106px;
-  opacity: 1;
-  align-content: center;
-}
+
 
 /* Pricing sections ends here */
 
 /* Mobile design ends here */
 
-
 /* Tablet design starts here */
 
+/* Pricing sections starts here */
+
 @media screen and (min-width: 768px) {
-  .pricing{
+  .pricing {
     padding-left: 39px;
     padding-right: 33px;
   }
-.pricing__header{padding-bottom: 57px;
+
+  .pricing__plans-wrapper {
+    display: flex;
+    gap: 10px;
+    
+  }
+  .pricing__header {
+    padding-bottom: 57px;
+    letter-spacing: -0.37px;
+    line-height: 56px;
+    font-size: 48px;
+  }
+  .plan__header {
+    line-height: 40px;
+    padding-bottom: 16px;
+  }
+.pricing__tag{
+  font-size: 48px;
+  letter-spacing: -0.37px;
+  padding-bottom: 24px;
 }
-.pricing__plans-wrapper{
-display: flex;
-gap: 10px;
+.feature-item{
+  line-height: 28px;
 }
- .plan__header{
-  padding-bottom: 16px;
- }
+.button__access-wrapper{
+  padding-bottom: 106px;
 }
+}
+
+/* Pricing sections ends here */

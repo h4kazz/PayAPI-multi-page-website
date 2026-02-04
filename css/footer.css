@@ -60,8 +60,10 @@
   .footer__nav {
     flex-direction: row;
     margin-right: 138px;
+    gap: 40px;
   }
 
+  /* remove mobile margin values */
   .footer__logo,
   .footer__nav,
   .footer__social {

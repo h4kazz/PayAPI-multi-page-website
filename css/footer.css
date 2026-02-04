@@ -39,3 +39,32 @@
   gap: 24px;
   margin-bottom: 55px;
 }
+
+@media (min-width: 768px) {
+  .footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer__container {
+    flex-direction: row;
+    padding: 0 40px;
+    align-items: center;
+  }
+
+  .footer__logo {
+    margin-right: 64px;
+  }
+
+  .footer__nav {
+    flex-direction: row;
+    margin-right: 138px;
+  }
+
+  .footer__logo,
+  .footer__nav,
+  .footer__social {
+    margin-bottom: 0;
+  }
+}

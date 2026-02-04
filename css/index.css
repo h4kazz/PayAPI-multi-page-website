@@ -39,7 +39,6 @@
 
 input::placeholder {
   color: #98a8b6;
-  /* change to your color */
   opacity: 1;
 }
 
@@ -49,7 +48,6 @@ input::placeholder {
   border-radius: 24px;
   border: 1px solid rgba(54, 83, 107, 0.2);
   background-color: #ffffff;
-
   display: flex;
   align-items: center;
   padding-left: 27px;
@@ -306,10 +304,89 @@ input::placeholder {
 
 
 /* Tablet design 768 starts here */
-
-/* Partners section starts here */
-
 @media (min-width: 768px) {
+
+  /* Hero section starts here */
+
+  .hero {
+    padding-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero .hero-phone {
+    width: 155px;
+    height: 299px;
+    display: block;
+  }
+
+  .text_start {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.37px;
+    width: 573px;
+    min-height: 122px;
+    height: auto;
+    margin: 54px 0 16px;
+    text-align: center;
+  }
+
+  .hero form {
+    display: flex;
+    align-items: stretch;
+    width: 445px;
+    height: 48px;
+    min-height: 48px;
+  }
+
+  .email__box {
+    width: 272px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding-left: 27px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    border: 1px solid rgba(54, 83, 107, 0.2);
+    box-shadow: 0 10px 25px rgba(54, 83, 107, 0.25);
+  }
+
+  .email__button {
+    width: 173px;
+    height: 48px;
+    margin-left: -35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 24px;
+    background-color: #BA4270;
+    cursor: pointer;
+    padding: 0;
+    line-height: normal;
+  }
+
+  .email__button span {
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FBFCFE;
+    line-height: 17px;
+    margin: 0;
+  }
+
+  .text__Anyquestions {
+    margin-top: 16px;
+    width: auto;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  /* Hero section ends here */
+
+  /* Partners section starts here */
+
   .partners {
     background-color: #1b262f;
     padding: 5rem 0;
@@ -363,6 +440,4 @@ input::placeholder {
     background-color: #fbfcfe;
     color: #1b262f;
   }
-
-  /* Partners section ends here */
 }

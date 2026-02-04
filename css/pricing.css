@@ -165,11 +165,12 @@ hr {
 @media screen and (min-width: 768px) {
   .pricing {
     padding-left: 39px;
-    padding-right: 33px;
+    padding-right: 40px;
   }
 
   .pricing__plans-wrapper {
     display: flex;
+    
     gap: 10px;
     
   }

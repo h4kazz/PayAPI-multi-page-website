@@ -199,8 +199,8 @@
   /* about section starts here */
 
   .about_text_container {
-    max-width: 100%;
-    padding: 0 40px;
+    max-width: 689px;
+    padding: 0;
   }
 
   .about_main_title {

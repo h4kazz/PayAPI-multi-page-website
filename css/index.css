@@ -306,7 +306,7 @@ input::placeholder {
 /* Tablet design 768 starts here */
 @media (min-width: 768px) {
 
-  /* Hero section starts here */
+  /* Tablet hero section starts here */
 
   .hero {
     padding-top: 64px;
@@ -441,3 +441,4 @@ input::placeholder {
     color: #1b262f;
   }
 }
+/* Partners section ends here */

@@ -264,7 +264,7 @@ input::placeholder {
   letter-spacing: -0.14px;
   opacity: 1;
   padding-top: 34px;
-  padding-bottom: 18px;
+  padding-bottom: 14px;
 }
 
 .services__icon {
@@ -280,7 +280,7 @@ input::placeholder {
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
-  letter-spacing: -0.12px;
+  letter-spacing: -0.5px;
   text-align: center;
   color: #6c8294;
   opacity: 1;
@@ -292,7 +292,7 @@ input::placeholder {
   flex-direction: column;
   align-items: center;
   background-color: #edf3f8;
-  padding-top: 88px;
+  padding-top: 73px;
   padding-bottom: 35px;
   padding-left: 24px;
   padding-right: 23px;

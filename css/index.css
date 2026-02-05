@@ -391,6 +391,7 @@ input::placeholder {
     background-color: #1b262f;
     padding: 5rem 0;
     place-items: center;
+    padding-bottom: 88px;
   }
 
   .partners__info {
@@ -441,4 +442,5 @@ input::placeholder {
     color: #1b262f;
   }
 }
+
 /* Partners section ends here */

@@ -23,6 +23,9 @@
         width: 135px;
         height: 36px;
     }
+    .payAPI_logo_link {
+        color: #36536B;
+    }
 
     .menu_logo {
         width: 28px;
@@ -128,7 +131,8 @@
         display: none;
     }
 
-    .logo-wrapper a {
+
+    .Header_link_text {
         display: none;
     }
 
@@ -164,11 +168,7 @@
         }
 
         .logo-wrapper a {
-            display: inline-block;
-            color: #36536B;
-            opacity: .7;
-            font-size: 15px;
-            line-height: 17px;
+            
 
         }
 
@@ -227,7 +227,14 @@
             margin-bottom: 32px;
             margin-top: 4px;
         }
-
+        .Header_link_text{
+            color: #36536B;
+            display: inline-block;
+            
+            opacity: .7;
+            font-size: 15px;
+            line-height: 17px;
+        }
     }
 
     /* Tablet layout css ends */

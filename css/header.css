@@ -224,7 +224,7 @@
         .Header_link_text{
             color: #36536B;
             display: inline-block;
-            
+            font-weight: bold;
             opacity: .7;
             font-size: 15px;
             line-height: 17px;

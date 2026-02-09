@@ -48,11 +48,19 @@
   align-items: center;
 }
 
+.contact__wraper {
+  height: 42px;
+}
+
 .contact__input,
 .contact__textarea {
   background-color: #edf3f8;
   border: none;
   width: 100%;
+}
+
+.contact__input {
+  line-height: 20px;
 }
 
 .contact__textarea {
@@ -89,6 +97,7 @@
   font-size: 15px;
   color: #36536b;
   opacity: 0.5;
+  letter-spacing: -0.12px;
 }
 
 .contact__textarea {
@@ -236,17 +245,18 @@
 
   .contact__title {
     font-size: 48px;
-    line-height: 56px;
+    line-height: 1.17;
     letter-spacing: -0.37px;
     width: 543px;
     height: 178px;
     padding: 0;
-    margin-bottom: 48px;
+    margin-bottom: 44px;
   }
 
   .contact__field,
   .contact__field--check {
     width: 445px;
+    line-height: 1.17;
   }
 
   .contact__checkbox--title {

@@ -410,7 +410,7 @@ input::placeholder {
     margin-top: 54px;
     margin-bottom: 8px;
     height: 66px;
-    line-height: calc(48px * 1.5px);
+    line-height: calc(48px * 1.5);
     font-size: 48px;
   }
 
@@ -418,7 +418,7 @@ input::placeholder {
     width: 573px;
     height: 48px;
     margin: 0 auto;
-    line-height: calc(15px * 1.5px);
+    line-height: calc(15px * 1.5);
   }
 
   .easy-ui__phones {

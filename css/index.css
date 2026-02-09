@@ -264,7 +264,7 @@ input::placeholder {
   letter-spacing: -0.14px;
   opacity: 1;
   padding-top: 34px;
-  padding-bottom: 18px;
+  padding-bottom: 14px;
 }
 
 .services__icon {
@@ -280,7 +280,7 @@ input::placeholder {
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
-  letter-spacing: -0.12px;
+  letter-spacing: -0.5px;
   text-align: center;
   color: #6c8294;
   opacity: 1;
@@ -292,7 +292,7 @@ input::placeholder {
   flex-direction: column;
   align-items: center;
   background-color: #edf3f8;
-  padding-top: 88px;
+  padding-top: 73px;
   padding-bottom: 35px;
   padding-left: 24px;
   padding-right: 23px;
@@ -302,8 +302,13 @@ input::placeholder {
 
 /* Mobile design ends here */
 
+<<<<<<< VH1-36
 
 /* Tablet design 768 starts here */
+=======
+/* Tablet design starts here */
+
+>>>>>>> main
 @media (min-width: 768px) {
 
   /* Tablet hero section starts here */
@@ -361,7 +366,7 @@ input::placeholder {
     justify-content: center;
     border: none;
     border-radius: 24px;
-    background-color: #BA4270;
+    background-color: #ba4270;
     cursor: pointer;
     padding: 0;
     line-height: normal;
@@ -371,7 +376,7 @@ input::placeholder {
     font-family: "Public Sans", sans-serif;
     font-size: 15px;
     font-weight: 700;
-    color: #FBFCFE;
+    color: #fbfcfe;
     line-height: 17px;
     margin: 0;
   }
@@ -382,8 +387,66 @@ input::placeholder {
     text-align: center;
     margin-bottom: 100px;
   }
+<<<<<<< VH1-36
 
   /* Hero section ends here */
+=======
+  
+  /* Tablet hero section ends here */
+
+  /* Tablet services sections starts here */
+
+  .services {
+    display: flex;
+    flex-direction: row;
+    padding-top: 108px;
+    background-color: #edf3f8;
+    padding-left: 39px;
+    padding-right: 38px;
+    padding-bottom: 111px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .services__icon {
+    margin: auto;
+    width: 88px;
+    height: 88px;
+    opacity: 1;
+    align-content: center;
+  }
+
+  .services__coverage {
+    margin-left: 9px;
+    margin-right: 7px;
+    width: 225px;
+    height: 281px;
+  }
+
+  .services__banking {
+    width: 223px;
+    height: 306px;
+  }
+
+  .services__payment {
+    width: 227px;
+    height: 306px;
+  }
+  .services__paragraph {
+    margin: 0 auto;
+    width: 100%;
+    letter-spacing: -0.38px;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  /* Tablet services sections ends here */
+
+  /* Easy-ui section starts here */
+
+  .easy-ui {
+    padding-top: 100px;
+  }
+>>>>>>> main
 
   /* Partners section starts here */
 
@@ -404,13 +467,22 @@ input::placeholder {
     padding: 0 1.5rem;
   }
 
+<<<<<<< VH1-36
   .partners__header {
+=======
+  .easy-ui__title {
+    margin-top: 54px;
+    margin-bottom: 8px;
+    height: 66px;
+    line-height: calc(48px * 1.5);
+>>>>>>> main
     font-size: 48px;
     letter-spacing: -0.37px;
     line-height: 66px;
     margin-bottom: 8px;
   }
 
+<<<<<<< VH1-36
   .partners__description {
     max-width: 456px;
     margin: 0 auto 40px;
@@ -420,6 +492,24 @@ input::placeholder {
     color: #FBFCFE;
     opacity: 0.7;
     height: 104px;
+=======
+  .easy-ui__text, .easy-ui__text2 {
+    width: 573px;
+    height: 48px;
+    margin: 0 auto;
+    line-height: calc(15px * 1.5);
+  }
+
+  .easy-ui__phones {
+    margin: 0 auto;
+    margin-top: 108px;
+    overflow: hidden;
+  }
+
+  .easy-ui__phones, .easy-ui__phones img {
+    width: 362px;
+    height: 320px;
+>>>>>>> main
   }
 
   .partners__button {
@@ -438,6 +528,7 @@ input::placeholder {
     transition: all 0.3s ease-in-out;
   }
 
+<<<<<<< VH1-36
   .partners__button:hover {
     background-color: #fbfcfe;
     color: #1b262f;
@@ -445,3 +536,11 @@ input::placeholder {
 }
 
 /* Partners section ends here */
+=======
+  .easy-ui__text2 {
+    padding-bottom: 0px;
+  }
+    /* Easy-ui section ends here */
+}
+
+>>>>>>> main

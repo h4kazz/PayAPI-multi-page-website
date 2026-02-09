@@ -192,3 +192,61 @@
 /* Info numbers section ends here */
 
 /* Mobile desing ends here */
+
+/* Tablet design starts here */
+
+@media (min-width: 768px) {
+  /* about section starts here */
+
+  .about_text_container {
+    max-width: 689px;
+    padding: 0;
+  }
+
+  .about_main_title {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.37px;
+    width: 569px;
+    height: 178px;
+    margin: 0 auto 48px;
+  }
+
+  .about_info {
+    display: flex;
+  }
+
+  .about_title {
+    width: 233px;
+    font-size: 32px;
+    text-align: left;
+    line-height: 40px;
+    letter-spacing: -0.25px;
+    margin: 8px 0 0;
+  }
+
+  .about_text_vision,
+  .about_text_business,
+  .about_text_culture,
+  .about_text_people {
+    width: 456px;
+    text-align: left;
+    letter-spacing: -0.37px;
+  }
+
+  .about_text_vision,
+  .about_text_culture {
+    height: 132px;
+    margin-bottom: 72px;
+  }
+
+  .about_text_business {
+    height: 104px;
+    margin-bottom: 100px;
+  }
+
+  .about_text_people {
+    height: 76px;
+    margin-bottom: 100px;
+  }
+}

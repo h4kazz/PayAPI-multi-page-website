@@ -382,6 +382,8 @@ input::placeholder {
     text-align: center;
     margin-bottom: 100px;
   }
+  
+  /* Tablet hero section ends here */
 
   /* Tablet services sections starts here */
 
@@ -428,11 +430,9 @@ input::placeholder {
     font-size: 15px;
     line-height: 1.5;
   }
-}
-/* Tablet services sections ends here */
-  /* Tablet hero section ends here */
+  /* Tablet services sections ends here */
 
-  /* Easy-ui sections starts here */
+  /* Easy-ui section starts here */
 
   .easy-ui {
     padding-top: 100px;
@@ -456,7 +456,7 @@ input::placeholder {
     margin-top: 54px;
     margin-bottom: 8px;
     height: 66px;
-    line-height: 56px;
+    line-height: calc(48px * 1.5);
     font-size: 48px;
   }
 
@@ -464,6 +464,7 @@ input::placeholder {
     width: 573px;
     height: 48px;
     margin: 0 auto;
+    line-height: calc(15px * 1.5);
   }
 
   .easy-ui__phones {
@@ -484,7 +485,7 @@ input::placeholder {
 
   .easy-ui__text2 {
     padding-bottom: 0px;
-    line-height: 28px;
   }
-
+    /* Easy-ui section ends here */
 }
+

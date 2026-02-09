@@ -264,7 +264,7 @@ input::placeholder {
   letter-spacing: -0.14px;
   opacity: 1;
   padding-top: 34px;
-  padding-bottom: 18px;
+  padding-bottom: 14px;
 }
 
 .services__icon {
@@ -280,7 +280,7 @@ input::placeholder {
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
-  letter-spacing: -0.12px;
+  letter-spacing: -0.5px;
   text-align: center;
   color: #6c8294;
   opacity: 1;
@@ -292,7 +292,7 @@ input::placeholder {
   flex-direction: column;
   align-items: center;
   background-color: #edf3f8;
-  padding-top: 88px;
+  padding-top: 73px;
   padding-bottom: 35px;
   padding-left: 24px;
   padding-right: 23px;
@@ -305,6 +305,9 @@ input::placeholder {
 /* Tablet design starts here */
 
 @media (min-width: 768px) {
+
+  /* Tablet hero section starts here */
+
   .hero {
     padding-top: 64px;
     display: flex;
@@ -427,3 +430,61 @@ input::placeholder {
   }
 }
 /* Tablet services sections ends here */
+  /* Tablet hero section ends here */
+
+  /* Easy-ui sections starts here */
+
+  .easy-ui {
+    padding-top: 100px;
+  }
+
+  .easy-ui__container {
+    max-width: 768px;
+  }
+
+  .easy-ui__codeblock {
+    width: 392px;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .easy-ui-snippet {
+    margin: 0;
+  }
+
+  .easy-ui__title {
+    margin-top: 54px;
+    margin-bottom: 8px;
+    height: 66px;
+    line-height: 56px;
+    font-size: 48px;
+  }
+
+  .easy-ui__text, .easy-ui__text2 {
+    width: 573px;
+    height: 48px;
+    margin: 0 auto;
+  }
+
+  .easy-ui__phones {
+    margin: 0 auto;
+    margin-top: 108px;
+    overflow: hidden;
+  }
+
+  .easy-ui__phones, .easy-ui__phones img {
+    width: 362px;
+    height: 320px;
+  }
+
+  .easy-ui__phones img {
+    max-width: none;
+    margin: 0;
+  }
+
+  .easy-ui__text2 {
+    padding-bottom: 0px;
+    line-height: 28px;
+  }
+
+}

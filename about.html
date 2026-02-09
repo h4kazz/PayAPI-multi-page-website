@@ -104,72 +104,76 @@
     <!-- Info-numbers section stars here -->
 
     <section class="info-numbers">
-      <img src="assets/about/mobile/image-team-members.jpg" alt="Team members working together" class="mobile-img" />
+      <section class="info-numbers">
+        <picture>
+          <source media="(min-width: 768px)" srcset="assets/about/tablet/image-team-members.jpg"><img
+            src="assets/about/mobile/image-team-members.jpg" alt="Team members working together" class="mobile-img" />
+        </picture>
 
-      <div class="info-numbers__stats">
-        <div class="info-numbers__divider"></div>
+        <div class="info-numbers__stats">
+          <div class="info-numbers__divider"></div>
 
-        <div class="info-numbers__item">
-          <span class="text_team_members">Team Members</span>
-          <span class="text_number">300+</span>
+          <div class="info-numbers__item">
+            <span class="text_team_members">Team Members</span>
+            <span class="text_number">300+</span>
+          </div>
+
+          <div class="info-numbers__item">
+            <span class="text_team_members">Offices in the US</span>
+            <span class="text_number">3</span>
+          </div>
+
+          <div class="info-numbers__item">
+            <span class="text_team_members">Transactions analyzed</span>
+            <span class="text_number_last">10M+</span>
+            <div class="info-numbers__divider info-numbers__divider--last"></div>
+
+          </div>
+
         </div>
+      </section>
 
-        <div class="info-numbers__item">
-          <span class="text_team_members">Offices in the US</span>
-          <span class="text_number">3</span>
+      <!-- Info-numbers section ends here -->
+
+      <!-- About section starts here -->
+
+      <section class="about_section">
+        <div class="about_text_container">
+          <div class="about_info">
+            <h2 class="about_title">The Culture</h2>
+            <p class="about_text_culture">
+              We strongly believe there's always an opportunity to learn from
+              each other outside of day-to-day work, whether it's company-wide
+              offsites, internal hackathons, or co-worker meetups. We always
+              value cross-team collaboration and diversity of thought, no matter
+              the job title.
+            </p>
+          </div>
+          <div class="about_info">
+            <h2 class="about_title">The People</h2>
+            <p class="about_text_people">
+              We're all passionate about building a more efficient and inclusive
+              financial infrastructure together. At PayAPI, we have diverse
+              backgrounds and skills.
+            </p>
+          </div>
         </div>
+      </section>
 
-        <div class="info-numbers__item">
-          <span class="text_team_members">Transactions analyzed</span>
-          <span class="text_number_last">10M+</span>
-          <div class="info-numbers__divider info-numbers__divider--last"></div>
+      <!-- About section ends here -->
 
-        </div>
+      <!-- Demo sections starts here -->
+      <section class="demo">
+        <h2 class="demo__title">Ready to start?</h2>
+        <form class="demo__form" action="/schedule-demo" method="post">
+          <label class="sr-only" for="email-input">Email address</label>
+          <input class="demo__email" type="email" name="email-input" id="email-input" placeholder="Enter email address"
+            required autocomplete="email" />
+          <button class="demo__button" type="submit">Schedule a Demo</button>
+        </form>
+      </section>
 
-      </div>
-    </section>
-
-    <!-- Info-numbers section ends here -->
-
-    <!-- About section starts here -->
-
-    <section class="about_section">
-      <div class="about_text_container">
-        <div class="about_info">
-          <h2 class="about_title">The Culture</h2>
-          <p class="about_text_culture">
-            We strongly believe there's always an opportunity to learn from
-            each other outside of day-to-day work, whether it's company-wide
-            offsites, internal hackathons, or co-worker meetups. We always
-            value cross-team collaboration and diversity of thought, no matter
-            the job title.
-          </p>
-        </div>
-        <div class="about_info">
-          <h2 class="about_title">The People</h2>
-          <p class="about_text_people">
-            We're all passionate about building a more efficient and inclusive
-            financial infrastructure together. At PayAPI, we have diverse
-            backgrounds and skills.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- About section ends here -->
-
-    <!-- Demo sections starts here -->
-    <section class="demo">
-      <h2 class="demo__title">Ready to start?</h2>
-      <form class="demo__form" action="/schedule-demo" method="post">
-        <label class="sr-only" for="email-input">Email address</label>
-        <input class="demo__email" type="email" name="email-input" id="email-input" placeholder="Enter email address"
-          required autocomplete="email" />
-        <button class="demo__button" type="submit">Schedule a Demo</button>
-      </form>
-    </section>
-
-    <!-- Demo sections starts here -->
+      <!-- Demo sections starts here -->
   </main>
 
   <!-- Main ends here -->

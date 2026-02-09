@@ -302,11 +302,9 @@ input::placeholder {
 
 /* Mobile design ends here */
 
-
 /* Tablet design starts here */
 
 @media (min-width: 768px) {
-
   .hero {
     padding-top: 64px;
     display: flex;
@@ -360,7 +358,7 @@ input::placeholder {
     justify-content: center;
     border: none;
     border-radius: 24px;
-    background-color: #BA4270;
+    background-color: #ba4270;
     cursor: pointer;
     padding: 0;
     line-height: normal;
@@ -370,7 +368,7 @@ input::placeholder {
     font-family: "Public Sans", sans-serif;
     font-size: 15px;
     font-weight: 700;
-    color: #FBFCFE;
+    color: #fbfcfe;
     line-height: 17px;
     margin: 0;
   }
@@ -381,4 +379,51 @@ input::placeholder {
     text-align: center;
     margin-bottom: 100px;
   }
+
+  /* Tablet services sections starts here */
+
+  .services {
+    display: flex;
+    flex-direction: row;
+    padding-top: 108px;
+    background-color: #edf3f8;
+    padding-left: 39px;
+    padding-right: 38px;
+    padding-bottom: 111px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .services__icon {
+    margin: auto;
+    width: 88px;
+    height: 88px;
+    opacity: 1;
+    align-content: center;
+  }
+
+  .services__coverage {
+    margin-left: 9px;
+    margin-right: 7px;
+    width: 225px;
+    height: 281px;
+  }
+
+  .services__banking {
+    width: 223px;
+    height: 306px;
+  }
+
+  .services__payment {
+    width: 227px;
+    height: 306px;
+  }
+  .services__paragraph {
+    margin: 0 auto;
+    width: 100%;
+    letter-spacing: -0.38px;
+    font-size: 15px;
+    line-height: 1.5;
+  }
 }
+/* Tablet services sections ends here */

@@ -392,6 +392,7 @@ input::placeholder {
     padding: 5rem 0;
     place-items: center;
     padding-bottom: 88px;
+    padding-top: 88px;
   }
 
   .partners__info {

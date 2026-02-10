@@ -125,6 +125,21 @@ input::placeholder {
   font-weight: bold;
 }
 
+.hero__info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centruoja h1, form, tekstą */
+}
+
+.hero__info form {
+  width: 327px;            /* mobile form plotis */
+  display: flex;
+  flex-direction: column;
+  align-items: center;     /* centruoja email__box ir button */
+}
+
+
 /* Hero section styles ends here*/
 
 /* Partners section styles starts here*/
@@ -383,6 +398,13 @@ input::placeholder {
     margin-bottom: 100px;
   }
 
+  .hero__info form {
+    width: 445px;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+  }
+
   /* Tablet hero section ends here */
 
   /* Tablet services sections starts here */
@@ -595,10 +617,9 @@ input::placeholder {
   }
 
   .hero form {
-    display: flex;
-    align-items: stretch;
-    width: 445px;
-    height: 48px;
+    width: 546px;
+    justify-content: flex-start;
+
   }
 
   .email__box {
@@ -629,5 +650,8 @@ input::placeholder {
     margin: 16px 0 0 0;
     text-align: left;
     padding-left: 27px;
+    width: 546px;
+    justify-content: flex-start;
+
   }
 }

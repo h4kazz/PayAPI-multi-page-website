@@ -129,14 +129,17 @@ input::placeholder {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center; /* centruoja h1, form, tekstą */
+  align-items: center;
+  /* centruoja h1, form, tekstą */
 }
 
 .hero__info form {
-  width: 327px;            /* mobile form plotis */
+  width: 327px;
+  /* mobile form plotis */
   display: flex;
   flex-direction: column;
-  align-items: center;     /* centruoja email__box ir button */
+  align-items: center;
+  /* centruoja email__box ir button */
 }
 
 
@@ -484,7 +487,8 @@ input::placeholder {
     font-size: 48px;
   }
 
-  .easy-ui__text, .easy-ui__text2 {
+  .easy-ui__text,
+  .easy-ui__text2 {
     width: 573px;
     height: 48px;
     margin: 0 auto;
@@ -496,7 +500,8 @@ input::placeholder {
     overflow: hidden;
   }
 
-  .easy-ui__phones, .easy-ui__phones img {
+  .easy-ui__phones,
+  .easy-ui__phones img {
     width: 362px;
     height: 320px;
   }
@@ -652,4 +657,48 @@ input::placeholder {
     justify-content: flex-start;
 
   }
+
+  /* Partners section starts here */
+
+  .partners {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 131px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+
+  .partners__info {
+    order: 1;
+    max-width: 445px;
+    text-align: left;
+    align-items: flex-start;
+    margin-left: 165px;
+    margin-top: 6px;
+    padding: 0;
+  }
+
+  .logos {
+    order: 2;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 40px 60px;
+    align-items: center;
+    margin-right: 163px;
+    margin-top: 85px;
+    margin-bottom: 87px;
+  }
+
+  .partners__description {
+    margin-bottom: 40px;
+    text-align: left;
+  }
+
+  .partners__button {
+    align-self: flex-start;
+  }
+
+  /* Partners section ends here */
 }

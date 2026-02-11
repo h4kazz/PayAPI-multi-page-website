@@ -49,11 +49,11 @@
 }
 
 .demo__email::placeholder {
-    font-family: "Public Sans", sans-serif;
-    font-weight: bold;
-    opacity: 0.5;
-    font-size: 15px;
-    color: #36536B;
+  font-family: "Public Sans", sans-serif;
+  font-weight: bold;
+  opacity: 0.5;
+  font-size: 15px;
+  color: #36536b;
 }
 
 .demo__button {
@@ -81,8 +81,7 @@
 /* Tablet design: 768px */
 
 @media (min-width: 768px) {
-
-    /* Tablet demo section css */
+  /* Tablet demo section css */
 
   .demo {
     padding-bottom: 100px;
@@ -118,5 +117,26 @@
     height: 48px;
   }
 
-  /* Tablet demo sectio css ends here */
+  /* Tablet demo section css ends here */
+}
+
+/* Desktop design: 1440px */
+
+@media (min-width: 1440px) {
+  .demo {
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-between;
+    padding: 0 165px 80px;
+  }
+
+  .demo__title {
+    width: 445px;
+    margin: 0;
+    text-align: left;
+  }
+
+  .demo__form {
+    margin: 0;
+  }
 }

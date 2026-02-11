@@ -38,7 +38,7 @@
 }
 
 input::placeholder {
-  color: #98a8b6; /* change to your color */
+  color: #98a8b6;
   opacity: 1;
 }
 
@@ -48,7 +48,6 @@ input::placeholder {
   border-radius: 24px;
   border: 1px solid rgba(54, 83, 107, 0.2);
   background-color: #ffffff;
-
   display: flex;
   align-items: center;
   padding-left: 27px;
@@ -265,7 +264,7 @@ input::placeholder {
   letter-spacing: -0.14px;
   opacity: 1;
   padding-top: 34px;
-  padding-bottom: 18px;
+  padding-bottom: 14px;
 }
 
 .services__icon {
@@ -281,7 +280,7 @@ input::placeholder {
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
-  letter-spacing: -0.12px;
+  letter-spacing: -0.5px;
   text-align: center;
   color: #6c8294;
   opacity: 1;
@@ -293,7 +292,7 @@ input::placeholder {
   flex-direction: column;
   align-items: center;
   background-color: #edf3f8;
-  padding-top: 88px;
+  padding-top: 73px;
   padding-bottom: 35px;
   padding-left: 24px;
   padding-right: 23px;
@@ -302,3 +301,255 @@ input::placeholder {
 /* Services section styles starts here */
 
 /* Mobile design ends here */
+
+/* Tablet design starts here */
+
+@media (min-width: 768px) {
+
+  /* Tablet hero section starts here */
+
+  .hero {
+    padding-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero .hero-phone {
+    width: 155px;
+    height: 299px;
+    display: block;
+  }
+
+  .text_start {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.37px;
+    width: 573px;
+    min-height: 122px;
+    height: auto;
+    margin: 54px 0 16px;
+    text-align: center;
+  }
+
+  .hero form {
+    display: flex;
+    align-items: stretch;
+    width: 445px;
+    height: 48px;
+    min-height: 48px;
+  }
+
+  .email__box {
+    width: 272px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding-left: 27px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    border: 1px solid rgba(54, 83, 107, 0.2);
+    box-shadow: 0 10px 25px rgba(54, 83, 107, 0.25);
+  }
+
+  .email__button {
+    width: 173px;
+    height: 48px;
+    margin-left: -35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 24px;
+    background-color: #ba4270;
+    cursor: pointer;
+    padding: 0;
+    line-height: normal;
+  }
+
+  .email__button span {
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fbfcfe;
+    line-height: 17px;
+    margin: 0;
+  }
+
+  .text__Anyquestions {
+    margin-top: 16px;
+    width: auto;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  /* Tablet hero section ends here */
+
+  /* Tablet services sections starts here */
+
+  .services {
+    display: flex;
+    flex-direction: row;
+    padding-top: 108px;
+    background-color: #edf3f8;
+    padding-left: 39px;
+    padding-right: 38px;
+    padding-bottom: 111px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .services__icon {
+    margin: auto;
+    width: 88px;
+    height: 88px;
+    opacity: 1;
+    align-content: center;
+  }
+
+  .services__coverage {
+    margin-left: 9px;
+    margin-right: 7px;
+    width: 225px;
+    height: 281px;
+  }
+
+  .services__banking {
+    width: 223px;
+    height: 306px;
+  }
+
+  .services__payment {
+    width: 227px;
+    height: 306px;
+  }
+
+  .services__paragraph {
+    margin: 0 auto;
+    width: 100%;
+    letter-spacing: -0.38px;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  /* Tablet services sections ends here */
+
+  /* Easy-ui section starts here */
+
+  .easy-ui {
+    padding-top: 100px;
+  }
+
+  .easy-ui__container {
+    max-width: 768px;
+  }
+
+  .easy-ui__codeblock {
+    width: 392px;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .easy-ui-snippet {
+    margin: 0;
+  }
+
+  .easy-ui__title {
+    margin-top: 54px;
+    margin-bottom: 8px;
+    height: 66px;
+    line-height: calc(48px * 1.5);
+    font-size: 48px;
+  }
+
+  .easy-ui__text,
+  .easy-ui__text2 {
+    width: 573px;
+    height: 48px;
+    margin: 0 auto;
+    line-height: calc(15px * 1.5);
+  }
+
+  .easy-ui__phones {
+    margin: 0 auto;
+    margin-top: 108px;
+    overflow: hidden;
+  }
+
+  .easy-ui__phones,
+  .easy-ui__phones img {
+    width: 362px;
+    height: 320px;
+  }
+
+  .easy-ui__phones img {
+    max-width: none;
+    margin: 0;
+  }
+
+  .easy-ui__text2 {
+    padding-bottom: 0px;
+  }
+
+  /* Easy-ui section ends here */
+
+  /* Partners section starts here */
+
+  .partners {
+    background-color: #1b262f;
+    padding: 5rem 0;
+    place-items: center;
+    padding-bottom: 88px;
+    padding-top: 88px;
+  }
+
+  .partners__info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "DM Serif Display";
+    color: #fbfcfe;
+    padding: 0 1.5rem;
+  }
+
+  .partners__header {
+    font-size: 48px;
+    letter-spacing: -0.37px;
+    line-height: 66px;
+    margin-bottom: 8px;
+  }
+
+  .partners__description {
+    max-width: 456px;
+    margin: 0 auto 40px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 28px;
+    color: #FBFCFE;
+    opacity: 0.7;
+    height: 104px;
+  }
+
+  .partners__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 129px;
+    height: 48px;
+    border: 1px solid #fbfcfe;
+    border-radius: 24px;
+    font-family: "Public Sans";
+    font-size: 0.938rem;
+    letter-spacing: -0.12px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .partners__button:hover {
+    background-color: #fbfcfe;
+    color: #1b262f;
+  }
+
+  /* Partners section ends here */
+}

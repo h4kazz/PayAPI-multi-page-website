@@ -100,95 +100,173 @@
   width: 100%;
   height: 300px;
   display: block;
-  margin: 0 0;
 }
 
-.divider {
-  width: 100%;
-  height: 1px;
+.info-numbers__stats {
+  max-width: 375px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-numbers__divider {
   width: 327px;
+  height: 1px;
   background-color: #36536b;
-  margin: 48px auto 17px;
   opacity: 0.25;
+  margin: 48px auto 17px;
 }
 
-.info-numbers {
-  width: 100%;
+.info-numbers__divider--last {
+  margin: 1px auto 53px;
+}
+
+.info-numbers__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .text_team_members {
-  text-align: center;
-  letter-spacing: 0px;
-  color: #36536b;
-  opacity: 0.7;
-  height: 21px;
-  width: 327px;
-  text-align: center;
   font-family: "Public Sans", sans-serif;
   font-size: 16px;
   line-height: 28px;
-  font-weight: 100;
-}
-
-.text_number {
-  text-align: center;
-  letter-spacing: -0.43px;
-  color: #ba4270;
-  height: 77px;
-  width: 327px;
-  text-align: center;
-  margin-top: 21px;
-  line-height: 72x;
-  font-family: "DM Serif Display", serif;
-  font-size: 56px;
-  font-weight: 100;
-  margin: 21px auto 13px;
-}
-
-.text_number_last {
-  text-align: center;
-  letter-spacing: -0.43px;
-  color: #ba4270;
-  height: 77px;
-  width: 327px;
-  text-align: center;
-  margin-top: 21px;
-  line-height: 72x;
-  font-family: "DM Serif Display", serif;
-  font-size: 56px;
-  font-weight: 100;
-  margin: 21px auto 0px;
-}
-
-.text_Offices_in_the_US {
-  text-align: center;
-  letter-spacing: 0px;
   color: #36536b;
   opacity: 0.7;
-  height: 21px;
-  width: 327px;
+  margin-bottom: 21px;
   text-align: center;
-  font-size: 16px;
-  line-height: 28px;
 }
 
-.divider-text {
-  display: flex;
-  align-items: center;
-  max-width: 375px;
-  margin: 17px auto 0px;
-  flex-direction: column;
-}
-
-.divider_last {
-  width: 100%;
-  height: 1px;
-  width: 327px;
-  background-color: #36536b;
-  margin: -2px auto 55px;
-  opacity: 0.25;
+.text_number,
+.text_number_last {
+  font-family: "DM Serif Display", serif;
+  font-size: 56px;
+  line-height: 72px;
+  color: #ba4270;
 }
 
 /* Info numbers section ends here */
 
 /* Mobile desing ends here */
+
+/* Tablet design starts here */
+
+@media (min-width: 768px) {
+  /* about section starts here */
+
+  .about_text_container {
+    max-width: 689px;
+    padding: 0;
+    padding-top: 64px;
+  }
+
+  .about_main_title {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.37px;
+    width: 569px;
+    height: 178px;
+    margin: 0 auto 48px;
+  }
+
+  .about_info {
+    display: flex;
+  }
+
+  .about_title {
+    width: 233px;
+    font-size: 32px;
+    text-align: left;
+    line-height: 40px;
+    letter-spacing: -0.25px;
+    margin: 8px 0 0;
+  }
+
+  .about_text_vision,
+  .about_text_business,
+  .about_text_culture,
+  .about_text_people {
+    width: 456px;
+    text-align: left;
+    letter-spacing: -0.37px;
+  }
+
+  .about_text_vision,
+  .about_text_culture {
+    height: 132px;
+    margin-bottom: 72px;
+  }
+
+  .about_text_business {
+    height: 104px;
+    margin-bottom: 100px;
+  }
+
+  .about_text_people {
+    height: 76px;
+    margin-bottom: 100px;
+  }
+
+  /* about section ends here */
+
+  /* info numbers section starts here */
+  .info-numbers {
+    background-color: #edf3f8;
+    width: 100%;
+
+  }
+
+  .mobile-img {
+    max-width: 768px;
+    height: 267px;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+
+  .info-numbers__stats {
+    max-width: 768px;
+    margin: 64px auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .info-numbers__item {
+    position: relative;
+    padding-top: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 223px;
+  }
+
+  .info-numbers__item::before,
+  .info-numbers__item::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 223px;
+    height: 1px;
+    background-color: #36536b;
+    opacity: 0.25;
+  }
+
+  .info-numbers__item::before {
+    top: 0;
+  }
+
+  .info-numbers__item::after {
+    bottom: 0;
+
+  }
+
+  .info-numbers__divider {
+    display: none;
+  }
+
+  /* info numbers section ends here */
+
+}

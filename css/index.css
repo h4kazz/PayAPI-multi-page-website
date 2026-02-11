@@ -125,6 +125,21 @@ input::placeholder {
   font-weight: bold;
 }
 
+.hero__info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centruoja h1, form, tekstą */
+}
+
+.hero__info form {
+  width: 327px;            /* mobile form plotis */
+  display: flex;
+  flex-direction: column;
+  align-items: center;     /* centruoja email__box ir button */
+}
+
+
 /* Hero section styles ends here*/
 
 /* Partners section styles starts here*/
@@ -383,6 +398,13 @@ input::placeholder {
     margin-bottom: 100px;
   }
 
+  .hero__info form {
+    width: 445px;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+  }
+
   /* Tablet hero section ends here */
 
   /* Tablet services sections starts here */
@@ -552,4 +574,84 @@ input::placeholder {
   }
 
   /* Partners section ends here */
+}
+
+/* Tablet design ends here */
+
+/* Desktop design starts here */
+
+@media (min-width: 1440px) {
+
+  /* Hero design starts here */
+
+  .hero {
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 208px;
+    padding: 0;
+  }
+
+  .hero .hero-phone {
+    width: 257px;
+    height: 498px;
+  }
+
+  .hero__box {
+    margin-bottom: 74px;
+  }
+
+
+  .hero__info {
+    width: 546px;
+    height: 348px;
+  }
+
+  .text_start {
+    text-align: left;
+    font-size: 72px;
+    letter-spacing: -0.55px;
+    line-height: 76px;
+    width: 546px;
+    height: 243px;
+    margin: 0 0 24px 0;
+  }
+
+  .hero form {
+    width: 546px;
+    justify-content: flex-start;
+
+  }
+
+  .email__box {
+    width: 272px;
+    height: 48px;
+    flex: 0 0 272px;
+  }
+
+  .email__box input {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  .email__button {
+    width: 173px;
+    height: 48px;
+    margin: 0;
+    margin-left: -35px;
+    flex: 0 0 173px;
+  }
+
+  .email__button:hover {
+    background-color: #DA6D97;
+  }
+
+  .text__Anyquestions {
+    margin: 16px 0 0 0;
+    text-align: left;
+    padding-left: 27px;
+    width: 546px;
+    justify-content: flex-start;
+
+  }
 }

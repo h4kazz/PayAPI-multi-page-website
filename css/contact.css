@@ -268,4 +268,29 @@
   .contact__btn {
     margin-bottom: 71px;
   }
+
+  /* Tablet partners contact form section start css */
+
+  .partners-contact {
+    background-color: #edf3f8;
+    place-items: center;
+    width: 768px;
+    padding-bottom: 0;
+    gap: 2rem;
+
+  }
+
+  .logos {
+
+    margin-bottom: 106px;
+
+  }
+
+  .partners-contact__header {
+    display: block;
+    width: 445px;
+    height: 65px;
+  }
+
+  /* Tablet partners contact form section end css*/
 }

@@ -34,8 +34,8 @@
   font-weight: 400;
   line-height: 36px;
   color: #36536b;
-  padding-top: 19px;
-  padding-bottom: 44px;
+  padding-top: 20px;
+  padding-bottom: 50px;
   letter-spacing: -0.25px;
   opacity: 1;
 }
@@ -64,7 +64,7 @@
   letter-spacing: -0.4px;
   opacity: 1;
   color: #6c8294;
-  padding-bottom: 30px;
+  padding-bottom: 28px;
 }
 
 .pricing__tag {
@@ -123,7 +123,7 @@ hr {
   display: flex;
   justify-content: center;
   padding-top: 24px;
-  padding-bottom: 55px;
+  padding-bottom: 80px;
 }
 
 .button__access {

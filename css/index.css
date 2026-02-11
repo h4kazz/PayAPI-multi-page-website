@@ -302,7 +302,6 @@ input::placeholder {
 
 /* Mobile design ends here */
 
-
 /* Tablet design starts here */
 
 @media (min-width: 768px) {
@@ -362,7 +361,7 @@ input::placeholder {
     justify-content: center;
     border: none;
     border-radius: 24px;
-    background-color: #BA4270;
+    background-color: #ba4270;
     cursor: pointer;
     padding: 0;
     line-height: normal;
@@ -372,7 +371,7 @@ input::placeholder {
     font-family: "Public Sans", sans-serif;
     font-size: 15px;
     font-weight: 700;
-    color: #FBFCFE;
+    color: #fbfcfe;
     line-height: 17px;
     margin: 0;
   }
@@ -386,7 +385,56 @@ input::placeholder {
 
   /* Tablet hero section ends here */
 
-  /* Easy-ui sections starts here */
+  /* Tablet services sections starts here */
+
+  .services {
+    display: flex;
+    flex-direction: row;
+    padding-top: 108px;
+    background-color: #edf3f8;
+    padding-left: 39px;
+    padding-right: 38px;
+    padding-bottom: 111px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .services__icon {
+    margin: auto;
+    width: 88px;
+    height: 88px;
+    opacity: 1;
+    align-content: center;
+  }
+
+  .services__coverage {
+    margin-left: 9px;
+    margin-right: 7px;
+    width: 225px;
+    height: 281px;
+  }
+
+  .services__banking {
+    width: 223px;
+    height: 306px;
+  }
+
+  .services__payment {
+    width: 227px;
+    height: 306px;
+  }
+
+  .services__paragraph {
+    margin: 0 auto;
+    width: 100%;
+    letter-spacing: -0.38px;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  /* Tablet services sections ends here */
+
+  /* Easy-ui section starts here */
 
   .easy-ui {
     padding-top: 100px;
@@ -410,14 +458,16 @@ input::placeholder {
     margin-top: 54px;
     margin-bottom: 8px;
     height: 66px;
-    line-height: 56px;
+    line-height: calc(48px * 1.5);
     font-size: 48px;
   }
 
-  .easy-ui__text, .easy-ui__text2 {
+  .easy-ui__text,
+  .easy-ui__text2 {
     width: 573px;
     height: 48px;
     margin: 0 auto;
+    line-height: calc(15px * 1.5);
   }
 
   .easy-ui__phones {
@@ -426,7 +476,8 @@ input::placeholder {
     overflow: hidden;
   }
 
-  .easy-ui__phones, .easy-ui__phones img {
+  .easy-ui__phones,
+  .easy-ui__phones img {
     width: 362px;
     height: 320px;
   }
@@ -438,7 +489,67 @@ input::placeholder {
 
   .easy-ui__text2 {
     padding-bottom: 0px;
-    line-height: 28px;
   }
 
+  /* Easy-ui section ends here */
+
+  /* Partners section starts here */
+
+  .partners {
+    background-color: #1b262f;
+    padding: 5rem 0;
+    place-items: center;
+    padding-bottom: 88px;
+    padding-top: 88px;
+  }
+
+  .partners__info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "DM Serif Display";
+    color: #fbfcfe;
+    padding: 0 1.5rem;
+  }
+
+  .partners__header {
+    font-size: 48px;
+    letter-spacing: -0.37px;
+    line-height: 66px;
+    margin-bottom: 8px;
+  }
+
+  .partners__description {
+    max-width: 456px;
+    margin: 0 auto 40px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 28px;
+    color: #FBFCFE;
+    opacity: 0.7;
+    height: 104px;
+  }
+
+  .partners__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 129px;
+    height: 48px;
+    border: 1px solid #fbfcfe;
+    border-radius: 24px;
+    font-family: "Public Sans";
+    font-size: 0.938rem;
+    letter-spacing: -0.12px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .partners__button:hover {
+    background-color: #fbfcfe;
+    color: #1b262f;
+  }
+
+  /* Partners section ends here */
 }

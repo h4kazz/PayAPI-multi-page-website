@@ -49,17 +49,19 @@
 
   .footer__container {
     flex-direction: row;
+    gap: 138px;
     padding: 0 40px;
     align-items: center;
   }
 
-  .footer__logo {
-    margin-right: 64px;
+  .footer__wraper {
+    display: flex;
+    gap: 64px;
+    align-items: center;
   }
 
   .footer__nav {
     flex-direction: row;
-    margin-right: 138px;
     gap: 40px;
   }
 
@@ -67,5 +69,14 @@
   .footer__nav,
   .footer__social {
     margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer__container {
+    width: 100%;
+    padding: 0 165px;
+    gap: 0;
+    justify-content: space-between;
   }
 }

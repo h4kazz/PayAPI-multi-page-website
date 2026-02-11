@@ -286,13 +286,24 @@
 
   }
 
-  .partners-contact__header {
-    display: block;
+  .partners-contact__header_tablet {
     width: 445px;
     height: 65px;
-    padding-left: 15px;
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    font-weight: 500;
+    letter-spacing: -0.18px;
+    color: #36536b;
+    opacity: 75%;
   }
 
- 
-  /* Tablet partners contact form section end css*/
+}
+
+.partners-contact__header {
+  display: none;
+}
+
+/* Tablet partners contact form section end css*/
 }

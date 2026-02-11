@@ -2,12 +2,12 @@
 
 .header {
   background-color: #edf3f8;
-  height: 110px;
+  box-sizing: content-box;
+  height: 37px;
   display: flex;
-  align-items: flex-start;
-  /* pradžia viršuje */
-  padding-top: 40.76px;
-  /* atstumas nuo viršaus */
+  align-items: center;
+  padding: 40.76px 24px 33px;
+  justify-content: space-between;
 }
 
 .logo-wrapper {
@@ -15,7 +15,6 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0 24px;
 }
 
 .payAPI_logo {
@@ -211,6 +210,7 @@
     margin-bottom: 32px;
     margin-top: 4px;
   }
+
   .Header_link_text {
     color: #36536b;
     display: inline-block;
@@ -223,3 +223,8 @@
 }
 
 /* Tablet layout css ends */
+
+/* Desktop layout starts here */
+
+@media (min-width: 1024px) {
+}

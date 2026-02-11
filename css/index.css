@@ -325,7 +325,7 @@ input::placeholder {
   /* Tablet hero section starts here */
 
   .hero {
-    padding-top: 64px;
+    padding-top: 48px;
     display: flex;
     flex-direction: column;
     align-items: center;

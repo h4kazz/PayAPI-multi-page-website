@@ -18,7 +18,7 @@
 
 /* Mobile design 375px */
 
-/* Buble decoration starts here*/
+/* Top buble decoration starts here*/
 
 .page-top {
   position: relative;
@@ -52,7 +52,7 @@
   background-color: transparent;
 }
 
-/* Buble decoration ends here*/
+/* Top buble decoration ends here*/
 
 /* Hero section styles starts here*/
 
@@ -169,12 +169,11 @@ input::placeholder {
 }
 
 .hero__info form {
-  width: 327px;            /* mobile form plotis */
+  width: 327px; /* mobile form plotis */
   display: flex;
   flex-direction: column;
-  align-items: center;     /* centruoja email__box ir button */
+  align-items: center; /* centruoja email__box ir button */
 }
-
 
 /* Hero section styles ends here*/
 
@@ -356,6 +355,18 @@ input::placeholder {
 /* Tablet design starts here */
 
 @media (min-width: 768px) {
+  /* Top buble decoration starts here*/
+
+  .page-top::before {
+    top: -663px;
+    left: -91px;
+    width: 949px;
+    height: 949px;
+
+    background-size: 949px 949px;
+  }
+
+  /* Top buble decoration ends here*/
 
   /* Tablet hero section starts here */
 
@@ -520,7 +531,8 @@ input::placeholder {
     font-size: 48px;
   }
 
-  .easy-ui__text, .easy-ui__text2 {
+  .easy-ui__text,
+  .easy-ui__text2 {
     width: 573px;
     height: 48px;
     margin: 0 auto;
@@ -532,7 +544,8 @@ input::placeholder {
     overflow: hidden;
   }
 
-  .easy-ui__phones, .easy-ui__phones img {
+  .easy-ui__phones,
+  .easy-ui__phones img {
     width: 362px;
     height: 320px;
   }
@@ -581,7 +594,7 @@ input::placeholder {
     font-size: 15px;
     text-align: center;
     line-height: 28px;
-    color: #FBFCFE;
+    color: #fbfcfe;
     opacity: 0.7;
     height: 104px;
   }
@@ -615,6 +628,18 @@ input::placeholder {
 /* Desktop design starts here */
 
 @media (min-width: 1440px) {
+  /* Top buble decoration starts here*/
+
+  .page-top::before {
+    top: -172px;
+    left: 800px;
+    width: 780px;
+    height: 780px;
+
+    background-size: 780px 780px;
+  }
+
+  /* Top buble decoration ends here*/
 
   /* Hero design starts here */
 
@@ -634,7 +659,6 @@ input::placeholder {
     margin-bottom: 74px;
   }
 
-
   .hero__info {
     width: 546px;
     height: 348px;
@@ -653,7 +677,6 @@ input::placeholder {
   .hero form {
     width: 546px;
     justify-content: flex-start;
-
   }
 
   .email__box {
@@ -677,7 +700,7 @@ input::placeholder {
   }
 
   .email__button:hover {
-    background-color: #DA6D97;
+    background-color: #da6d97;
   }
 
   .text__Anyquestions {
@@ -686,7 +709,6 @@ input::placeholder {
     padding-left: 27px;
     width: 546px;
     justify-content: flex-start;
-
   }
 
   /* Hero design ends here */
@@ -706,13 +728,14 @@ input::placeholder {
     gap: 150px;
   }
 
-  .easy-ui__item1, .easy-ui__item2 {
+  .easy-ui__item1,
+  .easy-ui__item2 {
     display: flex;
   }
 
   .easy-ui__item1 {
     flex-direction: row;
-    gap: 125px ;
+    gap: 125px;
   }
 
   .easy-ui__item2 {
@@ -740,14 +763,15 @@ input::placeholder {
     letter-spacing: -0.37px;
   }
 
-  .easy-ui__title, .easy-ui__text {
+  .easy-ui__title,
+  .easy-ui__text {
     width: 100%;
     text-align: left;
   }
 
   .easy-ui__item1 .easy-ui__title {
     margin-top: 66px;
-    margin-bottom: 8px ;
+    margin-bottom: 8px;
   }
 
   .easy-ui__item2 .easy-ui__title {

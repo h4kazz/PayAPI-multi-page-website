@@ -51,7 +51,6 @@
 
 /* Top buble decorations ends here */
 
-
 /* Pricing section */
 
 .pricing {
@@ -169,7 +168,7 @@ hr {
   color: #36536b;
   line-height: 17px;
   letter-spacing: -0.12px;
-  
+
   transition: all 0.2s ease;
 
   border: 1px solid #36536b;
@@ -188,17 +187,28 @@ hr {
   color: #ffffff;
 }
 
-
-
 /* Pricing sections ends here */
 
 /* Mobile design ends here */
 
 /* Tablet design starts here */
 
-/* Pricing sections starts here */
-
 @media screen and (min-width: 768px) {
+  /* Top buble decoration starts here*/
+
+  .page-top::before {
+    top: -464px;
+    left: 505px;
+    width: 780px;
+    height: 780px;
+
+    background-size: 780px 780px;
+  }
+
+  /* Top buble decoration ends here*/
+
+  /* Pricing sections starts here */
+
   .pricing {
     padding-left: 39px;
     padding-right: 40px;
@@ -206,9 +216,8 @@ hr {
 
   .pricing__plans-wrapper {
     display: flex;
-    
+
     gap: 10px;
-    
   }
   .pricing__header {
     padding-bottom: 57px;
@@ -220,17 +229,32 @@ hr {
     line-height: 40px;
     padding-bottom: 16px;
   }
-.pricing__tag{
-  font-size: 48px;
-  letter-spacing: -0.37px;
-  padding-bottom: 24px;
-}
-.feature-item{
-  line-height: 28px;
-}
-.button__access-wrapper{
-  padding-bottom: 106px;
-}
+  .pricing__tag {
+    font-size: 48px;
+    letter-spacing: -0.37px;
+    padding-bottom: 24px;
+  }
+  .feature-item {
+    line-height: 28px;
+  }
+  .button__access-wrapper {
+    padding-bottom: 106px;
+  }
 }
 
-/* Pricing sections ends here */
+/* Desktop design starts here */
+
+@media (min-width: 1440px) {
+  /* Top buble decoration starts here*/
+
+  .page-top::before {
+    top: -527px;
+    left: 800px;
+    width: 780px;
+    height: 780px;
+
+    background-size: 780px 780px;
+  }
+
+  /* Top buble decoration ends here*/
+}

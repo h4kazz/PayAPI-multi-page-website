@@ -188,6 +188,19 @@
 /* Tablet design starts here */
 
 @media (min-width: 768px) {
+  /* Top buble decoration starts here*/
+
+  .page-top::before {
+    top: -464px;
+    left: 505px;
+    width: 780px;
+    height: 780px;
+
+    background-size: 780px 780px;
+  }
+
+  /* Top buble decoration ends here*/
+
   /* about section starts here */
 
   .about_text_container {
@@ -249,7 +262,6 @@
   .info-numbers {
     background-color: #edf3f8;
     width: 100%;
-
   }
 
   .mobile-img {
@@ -295,7 +307,6 @@
 
   .info-numbers__item::after {
     bottom: 0;
-
   }
 
   .info-numbers__divider {
@@ -303,11 +314,23 @@
   }
 
   /* info numbers section ends here */
-
 }
 
+/* Desktop design starts here */
 
 @media (min-width: 1440px) {
+  /* Top buble decoration starts here*/
+
+  .page-top::before {
+    top: -527px;
+    left: 800px;
+    width: 780px;
+    height: 780px;
+
+    background-size: 780px 780px;
+  }
+
+  /* Top buble decoration ends here*/
 
   /* About section starts here */
   .about_main_title {

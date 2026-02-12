@@ -369,4 +369,14 @@
     text-align: left;
   }
 
+  .info-numbers__item::before,
+  .info-numbers__item::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 350px;
+    height: 1px;
+    background-color: #36536b;
+    opacity: 0.25;
+  }
 }

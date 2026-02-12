@@ -273,6 +273,8 @@
 
 
 @media (min-width: 1440px) {
+
+  /* About section starts here */
   .about_main_title {
     width: 730px;
     height: 189px;
@@ -328,6 +330,43 @@
 
   .about_text_container.desktop {
     padding-top: 70px;
+  }
+
+  /* About section ends here */
+
+  /*Info numbers starts here */
+
+  .mobile-img {
+    max-width: 1440px;
+    height: 500px;
+    margin: 0 0 0 0;
+  }
+
+  /*Info numbers ends here */
+
+  .info-numbers__stats {
+    max-width: 1110px;
+    height: 136px;
+    margin: 72px auto 0;
+    column-gap: 30px;
+  }
+
+  .text_number {
+    width: 350px;
+    height: 77px;
+    letter-spacing: -0.43px;
+  }
+
+  .text_number_last {
+    width: 350px;
+    height: 77px;
+    letter-spacing: -0.43px;
+  }
+
+  .text_team_members {
+    width: 350px;
+    height: 21px;
+    text-align: left;
   }
 
 }

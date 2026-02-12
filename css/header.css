@@ -150,10 +150,8 @@
 
   .logo-wrapper {
     display: flex;
-
     align-items: center;
     width: 100%;
-    /* padding: 0px 40px; */
   }
 
   .menu_logo {
@@ -181,7 +179,6 @@
     line-height: 17px;
     display: flex;
     align-items: center;
-    /* margin-bottom: 24px; */
   }
 
   .email__button_header span {
@@ -199,16 +196,12 @@
 
   .header_links {
     display: flex;
-    /* margin-top: 16px;
-    margin-bottom: auto; */
     gap: 40px;
   }
 
   .payAPI_logo {
     width: 135px;
     height: 36px;
-    /* margin-bottom: 32px; */
-    /* margin-top: 4px; */
   }
 
   .Header_link_text {
@@ -227,4 +220,7 @@
 /* Desktop layout starts here */
 
 @media (min-width: 1024px) {
+  .header {
+    justify-content: space-between;
+  }
 }

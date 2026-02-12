@@ -42,6 +42,7 @@
   font-weight: bold;
   color: #36536b;
   font-size: 15px;
+  cursor: pointer;
 }
 
 .demo__email:focus {
@@ -62,6 +63,12 @@
   font-family: "Public Sans", sans-serif;
   font-weight: bold;
   font-size: 15px;
+  transition: all 0.2s ease-in;
+}
+
+.demo__button:hover,
+.demo__button:focus {
+  background-color: #da6d97;
 }
 
 .sr-only {

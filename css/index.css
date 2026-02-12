@@ -69,6 +69,7 @@ input::placeholder {
   color: #36536b;
   opacity: 1;
   letter-spacing: 0px;
+  cursor: pointer;
 }
 
 .email__button {
@@ -88,6 +89,13 @@ input::placeholder {
   display: flex;
   align-items: center;
   margin-bottom: 24px;
+  box-shadow: 10px 10px 25px rgba(54, 83, 107, 0.25);
+  transition: all 0.2s ease-in;
+}
+
+.email__button:hover,
+.email__button:focus {
+  background-color: #da6d97;
 }
 
 .email__button span {
@@ -133,12 +141,11 @@ input::placeholder {
 }
 
 .hero__info form {
-  width: 327px;            /* mobile form plotis */
+  width: 327px; /* mobile form plotis */
   display: flex;
   flex-direction: column;
-  align-items: center;     /* centruoja email__box ir button */
+  align-items: center; /* centruoja email__box ir button */
 }
-
 
 /* Hero section styles ends here*/
 
@@ -320,7 +327,6 @@ input::placeholder {
 /* Tablet design starts here */
 
 @media (min-width: 768px) {
-
   /* Tablet hero section starts here */
 
   .hero {
@@ -484,7 +490,8 @@ input::placeholder {
     font-size: 48px;
   }
 
-  .easy-ui__text, .easy-ui__text2 {
+  .easy-ui__text,
+  .easy-ui__text2 {
     width: 573px;
     height: 48px;
     margin: 0 auto;
@@ -496,7 +503,8 @@ input::placeholder {
     overflow: hidden;
   }
 
-  .easy-ui__phones, .easy-ui__phones img {
+  .easy-ui__phones,
+  .easy-ui__phones img {
     width: 362px;
     height: 320px;
   }
@@ -545,7 +553,7 @@ input::placeholder {
     font-size: 15px;
     text-align: center;
     line-height: 28px;
-    color: #FBFCFE;
+    color: #fbfcfe;
     opacity: 0.7;
     height: 104px;
   }
@@ -579,7 +587,6 @@ input::placeholder {
 /* Desktop design starts here */
 
 @media (min-width: 1440px) {
-
   /* Hero design starts here */
 
   .hero {
@@ -597,7 +604,6 @@ input::placeholder {
   .hero__box {
     margin-bottom: 74px;
   }
-
 
   .hero__info {
     width: 546px;
@@ -617,7 +623,6 @@ input::placeholder {
   .hero form {
     width: 546px;
     justify-content: flex-start;
-
   }
 
   .email__box {
@@ -641,7 +646,7 @@ input::placeholder {
   }
 
   .email__button:hover {
-    background-color: #DA6D97;
+    background-color: #da6d97;
   }
 
   .text__Anyquestions {
@@ -650,7 +655,6 @@ input::placeholder {
     padding-left: 27px;
     width: 546px;
     justify-content: flex-start;
-
   }
 
   /* Hero design ends here */
@@ -670,13 +674,14 @@ input::placeholder {
     gap: 150px;
   }
 
-  .easy-ui__item1, .easy-ui__item2 {
+  .easy-ui__item1,
+  .easy-ui__item2 {
     display: flex;
   }
 
   .easy-ui__item1 {
     flex-direction: row;
-    gap: 125px ;
+    gap: 125px;
   }
 
   .easy-ui__item2 {
@@ -704,14 +709,15 @@ input::placeholder {
     letter-spacing: -0.37px;
   }
 
-  .easy-ui__title, .easy-ui__text {
+  .easy-ui__title,
+  .easy-ui__text {
     width: 100%;
     text-align: left;
   }
 
   .easy-ui__item1 .easy-ui__title {
     margin-top: 66px;
-    margin-bottom: 8px ;
+    margin-bottom: 8px;
   }
 
   .easy-ui__item2 .easy-ui__title {

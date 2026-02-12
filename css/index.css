@@ -594,9 +594,10 @@ input::placeholder {
 
   .hero {
     flex-direction: row-reverse;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     gap: 208px;
-    padding: 0;
+    padding: 73px 263px 77px 165px;
   }
 
   .hero .hero-phone {
@@ -604,9 +605,9 @@ input::placeholder {
     height: 498px;
   }
 
-  .hero__box {
+  /* .hero__box {
     margin-bottom: 74px;
-  }
+  } */
 
   .hero__info {
     width: 546px;
@@ -620,6 +621,7 @@ input::placeholder {
     line-height: 76px;
     width: 546px;
     height: 243px;
+    padding-top: 8px;
     margin: 0 0 24px 0;
   }
 
@@ -631,7 +633,7 @@ input::placeholder {
   .email__box {
     width: 272px;
     height: 48px;
-    flex: 0 0 272px;
+    flex: 0 0 307px;
   }
 
   .email__box input {

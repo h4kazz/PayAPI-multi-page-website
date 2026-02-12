@@ -143,8 +143,7 @@
     background-color: #edf3f8;
     height: 48px;
     display: flex;
-    align-items: flex-start;
-
+    align-items: center;
     padding: 40px 40px 0;
   }
 
@@ -152,6 +151,8 @@
     display: flex;
     align-items: center;
     width: 100%;
+    justify-content: start;
+    gap: 64px;
   }
 
   .menu_logo {
@@ -163,8 +164,6 @@
   }
 
   .email__button_header {
-    display: inline-block;
-    left: 24px;
     width: 173px;
     height: 48px;
     border-radius: 24px;
@@ -177,8 +176,9 @@
     cursor: pointer;
     letter-spacing: -0.12px;
     line-height: 17px;
-    display: flex;
+    display: block;
     align-items: center;
+    flex-shrink: 0;
   }
 
   .email__button_header span {
@@ -191,7 +191,6 @@
     font-size: 15px;
     font-weight: bold;
     color: #fbfcfe;
-    margin-left: 26.5px;
   }
 
   .header_links {
@@ -221,6 +220,6 @@
 
 @media (min-width: 1024px) {
   .header {
-    justify-content: space-between;
+    padding: 40px 165px 0px;
   }
 }

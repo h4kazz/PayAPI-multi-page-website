@@ -268,4 +268,42 @@
   .contact__btn {
     margin-bottom: 71px;
   }
+
+  /* Tablet partners contact form section start css */
+
+  .partners-contact {
+    background-color: #edf3f8;
+    place-items: center;
+    width: 768px;
+    padding-bottom: 0;
+    gap: 2rem;
+
+  }
+
+  .logos {
+
+    margin-bottom: 106px;
+
+  }
+
+  .partners-contact__header_tablet {
+    width: 445px;
+    height: 65px;
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    font-weight: 500;
+    letter-spacing: -0.18px;
+    color: #36536b;
+    opacity: 75%;
+  }
+
+}
+
+.partners-contact__header {
+  display: none;
+}
+
+/* Tablet partners contact form section end css*/
 }

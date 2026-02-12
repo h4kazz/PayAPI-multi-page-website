@@ -70,6 +70,7 @@ input::placeholder {
   color: #36536b;
   opacity: 1;
   letter-spacing: 0px;
+  cursor: pointer;
 }
 
 .email__button {
@@ -89,6 +90,13 @@ input::placeholder {
   display: flex;
   align-items: center;
   margin-bottom: 24px;
+  box-shadow: 10px 10px 25px rgba(54, 83, 107, 0.25);
+  transition: all 0.2s ease-in;
+}
+
+.email__button:hover,
+.email__button:focus {
+  background-color: #da6d97;
 }
 
 .email__button span {
@@ -650,5 +658,88 @@ input::placeholder {
     padding-left: 27px;
     width: 546px;
     justify-content: flex-start;
+  }
+
+  /* Hero design ends here */
+
+  /* Easy-ui design starts here */
+
+  .easy-ui {
+    padding-top: 150px;
+  }
+
+  .easy-ui__container {
+    min-width: 1440px;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+  }
+
+  .easy-ui__item1,
+  .easy-ui__item2 {
+    display: flex;
+  }
+
+  .easy-ui__item1 {
+    flex-direction: row;
+    gap: 125px;
+  }
+
+  .easy-ui__item2 {
+    flex-direction: row-reverse;
+    gap: 97px;
+  }
+
+  .easy-ui__codeblock {
+    width: 445px;
+    height: 284px;
+    margin: 0;
+    margin-left: 165px;
+  }
+
+  .easy-ui-snippet {
+    width: 100%;
+    height: 100%;
+  }
+
+  .easy-ui__content {
+    width: 445px;
+  }
+
+  .easy-ui__title {
+    letter-spacing: -0.37px;
+  }
+
+  .easy-ui__title,
+  .easy-ui__text {
+    width: 100%;
+    text-align: left;
+  }
+
+  .easy-ui__item1 .easy-ui__title {
+    margin-top: 66px;
+    margin-bottom: 8px;
+  }
+
+  .easy-ui__item2 .easy-ui__title {
+    margin-top: 188px;
+    margin-bottom: 8px;
+  }
+
+  .easy-ui__text {
+    height: 76px;
+  }
+
+  .easy-ui__phones {
+    width: 560px;
+    height: 498px;
+    margin: 0 171px 0 0;
+  }
+
+  .easy-ui__phones img {
+    width: 100%;
+    height: 100%;
   }
 }

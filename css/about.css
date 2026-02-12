@@ -270,3 +270,64 @@
   /* info numbers section ends here */
 
 }
+
+
+@media (min-width: 1440px) {
+  .about_main_title {
+    width: 730px;
+    height: 189px;
+    font-size: 56px;
+    letter-spacing: -0.43px;
+    text-align: left;
+    margin: 0 auto 53px;
+  }
+
+  .about_title {
+    width: 255px;
+    height: 44px;
+    flex-shrink: 0;
+  }
+
+  .about_info {
+    gap: 30px;
+  }
+
+  .about_text_container {
+    width: 920px;
+    margin-left: 260px;
+    padding-top: 80px;
+  }
+
+  .about_text_vision {
+    width: 635px;
+    height: 104px;
+    flex-shrink: 0;
+    margin-bottom: 64px;
+  }
+
+  .about_text_business {
+    width: 653px;
+    height: 76px;
+    flex-shrink: 0;
+    margin-bottom: 108px;
+  }
+
+  .about_text_culture {
+    width: 653px;
+    height: 76px;
+    flex-shrink: 0;
+    margin-bottom: 92px;
+  }
+
+  .about_text_people {
+    width: 653px;
+    height: 48px;
+    flex-shrink: 0;
+    margin-bottom: 108px;
+  }
+
+  .about_text_container.desktop {
+    padding-top: 70px;
+  }
+
+}

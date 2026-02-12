@@ -18,9 +18,41 @@
 
 /* Mobile design 375px */
 
-.main {
+/* Top buble decorations starts here */
+
+.page-top {
+  position: relative;
   background-color: #edf3f8;
+  overflow: hidden;
+  isolation: isolate;
 }
+
+.page-top::before {
+  content: "";
+  position: absolute;
+  top: -644px;
+  left: 74px;
+  width: 780px;
+  height: 780px;
+
+  background: url("../assets/shared/desktop/bg-pattern-circle.svg") no-repeat;
+  background-size: 780px 780px;
+
+  pointer-events: none;
+  z-index: -1;
+}
+
+.page-top .header,
+.page-top .main {
+  background-color: transparent;
+}
+
+.header,
+.main {
+  background-color: transparent;
+}
+
+/* Top buble decorations ends here */
 
 /* Contact section styles starts here */
 

@@ -5,9 +5,7 @@
   height: 110px;
   display: flex;
   align-items: flex-start;
-  /* pradžia viršuje */
   padding-top: 40.76px;
-  /* atstumas nuo viršaus */
 }
 
 .logo-wrapper {

@@ -665,7 +665,6 @@ input::placeholder {
     align-items: center;
     justify-content: space-between;
     gap: 131px;
-    max-width: 1440px;
     margin: 0 auto;
     padding: 100px 0;
   }

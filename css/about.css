@@ -270,3 +270,113 @@
   /* info numbers section ends here */
 
 }
+
+
+@media (min-width: 1440px) {
+
+  /* About section starts here */
+  .about_main_title {
+    width: 730px;
+    height: 189px;
+    font-size: 56px;
+    letter-spacing: -0.43px;
+    text-align: left;
+    margin: 0 auto 53px;
+  }
+
+  .about_title {
+    width: 255px;
+    height: 44px;
+    flex-shrink: 0;
+  }
+
+  .about_info {
+    gap: 30px;
+  }
+
+  .about_text_container {
+    width: 920px;
+    margin-left: 260px;
+    padding-top: 80px;
+  }
+
+  .about_text_vision {
+    width: 635px;
+    height: 104px;
+    flex-shrink: 0;
+    margin-bottom: 64px;
+  }
+
+  .about_text_business {
+    width: 653px;
+    height: 76px;
+    flex-shrink: 0;
+    margin-bottom: 108px;
+  }
+
+  .about_text_culture {
+    width: 653px;
+    height: 76px;
+    flex-shrink: 0;
+    margin-bottom: 92px;
+  }
+
+  .about_text_people {
+    width: 653px;
+    height: 48px;
+    flex-shrink: 0;
+    margin-bottom: 108px;
+  }
+
+  .about_text_container.desktop {
+    padding-top: 70px;
+  }
+
+  /* About section ends here */
+
+  /*Info numbers starts here */
+
+  .mobile-img {
+    max-width: 100%;
+    height: 500px;
+    margin: 0 0 0 0;
+  }
+
+  /*Info numbers ends here */
+
+  .info-numbers__stats {
+    max-width: 1110px;
+    height: 136px;
+    margin: 72px auto 0;
+    column-gap: 30px;
+  }
+
+  .text_number {
+    width: 350px;
+    height: 77px;
+    letter-spacing: -0.43px;
+  }
+
+  .text_number_last {
+    width: 350px;
+    height: 77px;
+    letter-spacing: -0.43px;
+  }
+
+  .text_team_members {
+    width: 350px;
+    height: 21px;
+    text-align: left;
+  }
+
+  .info-numbers__item::before,
+  .info-numbers__item::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 350px;
+    height: 1px;
+    background-color: #36536b;
+    opacity: 0.25;
+  }
+}

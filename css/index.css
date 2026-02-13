@@ -18,9 +18,45 @@
 
 /* Mobile design 375px */
 
-/* Hero section styles starts here*/
-.hero {
+/* Top buble decoration starts here*/
+
+.page-top {
+  position: relative;
   background-color: #edf3f8;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.page-top::before {
+  content: "";
+  position: absolute;
+  top: -550px;
+  left: -202px;
+  width: 780px;
+  height: 780px;
+
+  background: url("../assets/shared/desktop/bg-pattern-circle.svg") no-repeat;
+  background-size: 780px 780px;
+
+  pointer-events: none;
+  z-index: -1;
+}
+
+.page-top .header,
+.page-top .hero {
+  background-color: transparent;
+}
+
+.header,
+.hero {
+  background-color: transparent;
+}
+
+/* Top buble decoration ends here*/
+
+/* Hero section styles starts here*/
+
+.hero {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -139,7 +175,8 @@ input::placeholder {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center; /* centruoja h1, form, tekstą */
+  align-items: center;
+  /* centruoja h1, form, tekstą */
 }
 
 .hero__info form {
@@ -330,6 +367,19 @@ input::placeholder {
 /* Tablet design starts here */
 
 @media (min-width: 768px) {
+  /* Top buble decoration starts here*/
+
+  .page-top::before {
+    top: -663px;
+    left: -91px;
+    width: 949px;
+    height: 949px;
+
+    background-size: 949px 949px;
+  }
+
+  /* Top buble decoration ends here*/
+
   /* Tablet hero section starts here */
 
   .hero {
@@ -590,6 +640,20 @@ input::placeholder {
 /* Desktop design starts here */
 
 @media (min-width: 1440px) {
+
+  /* Top buble decoration starts here*/
+
+  .page-top::before {
+    top: -172px;
+    left: 800px;
+    width: 780px;
+    height: 780px;
+
+    background-size: 780px 780px;
+  }
+
+  /* Top buble decoration ends here*/
+
   /* Hero design starts here */
 
   .hero {
@@ -744,4 +808,47 @@ input::placeholder {
     width: 100%;
     height: 100%;
   }
+
+  /* Partners section starts here */
+
+  .partners {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 131px;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+
+  .partners__info {
+    order: 1;
+    max-width: 445px;
+    text-align: left;
+    align-items: flex-start;
+    margin-left: 165px;
+    margin-top: 6px;
+    padding: 0;
+  }
+
+  .logos {
+    order: 2;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 40px 60px;
+    align-items: center;
+    margin-right: 163px;
+    margin-top: 85px;
+    margin-bottom: 87px;
+  }
+
+  .partners__description {
+    margin-bottom: 40px;
+    text-align: left;
+  }
+
+  .partners__button {
+    align-self: flex-start;
+  }
+
+  /* Partners section ends here */
 }

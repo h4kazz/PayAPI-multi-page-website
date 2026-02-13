@@ -70,7 +70,7 @@
   letter-spacing: -0.25px;
   text-align: center;
   color: #36536b;
-  margin-bottom: 44px;
+  margin: 22px 0 42px;
   height: 152px;
 }
 
@@ -206,7 +206,7 @@
   .about_text_container {
     max-width: 689px;
     padding: 0;
-    padding-top: 64px;
+    padding-top: 86px;
   }
 
   .about_main_title {

@@ -65,12 +65,13 @@
 .text_start {
   font-size: 32px;
   height: 116px;
+  width: 327px;
   font-family: "DM Serif Display", serif;
   color: #36536b;
-  margin: 27.27px 24px 13px;
+  margin: 30px auto 10px;
   text-align: center;
   letter-spacing: -0.25px;
-  line-height: 36px;
+  line-height: 1.125;
 }
 
 input::placeholder {
@@ -167,6 +168,7 @@ input::placeholder {
   text-decoration: underline;
   opacity: 1;
   font-weight: bold;
+  text-underline-offset: 3px;
 }
 
 .hero__info {
@@ -201,7 +203,7 @@ input::placeholder {
   font-family: "DM Serif Display";
   color: #fbfcfe;
   padding: 0 1.5rem;
-  margin-top: 3.5rem;
+  margin-top: 59px;
 }
 
 .partners__header {
@@ -262,18 +264,18 @@ input::placeholder {
 .easy-ui-snippet {
   display: block;
   width: 100%;
-  margin-bottom: 47px;
+  margin-bottom: 52px;
   border-radius: 8px;
 }
 
 .easy-ui__title {
   font-family: "DM Serif Display", serif;
   font-size: 36px;
-  line-height: 36px;
+  line-height: 1;
   letter-spacing: -0.28px;
   text-align: center;
   color: #36536b;
-  margin-bottom: 12px;
+  margin-bottom: 2px;
   height: 49px;
 }
 
@@ -283,8 +285,9 @@ input::placeholder {
   line-height: 28px;
   text-align: center;
   color: #6c8294;
-  margin-bottom: 95px;
+  margin-bottom: 92px;
   height: 104px;
+  letter-spacing: -0.28px;
 }
 
 .easy-ui__phones {
@@ -296,7 +299,7 @@ input::placeholder {
   width: 100%;
   max-width: 328px;
   height: auto;
-  margin-bottom: 61px;
+  margin-bottom: 54px;
 }
 
 .easy-ui__text2 {
@@ -343,7 +346,7 @@ input::placeholder {
   text-align: center;
   color: #6c8294;
   opacity: 1;
-  padding-bottom: 53px;
+  padding-bottom: 48px;
 }
 
 .services {
@@ -351,8 +354,8 @@ input::placeholder {
   flex-direction: column;
   align-items: center;
   background-color: #edf3f8;
-  padding-top: 73px;
-  padding-bottom: 35px;
+  padding-top: 79px;
+  padding-bottom: 10px;
   padding-left: 24px;
   padding-right: 23px;
 }
@@ -380,7 +383,7 @@ input::placeholder {
   /* Tablet hero section starts here */
 
   .hero {
-    padding-top: 64px;
+    padding-top: 48px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -655,9 +658,10 @@ input::placeholder {
 
   .hero {
     flex-direction: row-reverse;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     gap: 208px;
-    padding: 0;
+    padding: 73px 263px 77px 165px;
   }
 
   .hero .hero-phone {
@@ -665,9 +669,9 @@ input::placeholder {
     height: 498px;
   }
 
-  .hero__box {
+  /* .hero__box {
     margin-bottom: 74px;
-  }
+  } */
 
   .hero__info {
     width: 546px;
@@ -681,6 +685,7 @@ input::placeholder {
     line-height: 76px;
     width: 546px;
     height: 243px;
+    padding-top: 8px;
     margin: 0 0 24px 0;
   }
 
@@ -692,7 +697,7 @@ input::placeholder {
   .email__box {
     width: 272px;
     height: 48px;
-    flex: 0 0 272px;
+    flex: 0 0 307px;
   }
 
   .email__box input {

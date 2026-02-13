@@ -2,10 +2,12 @@
 
 .header {
   background-color: #edf3f8;
-  height: 110px;
+  box-sizing: content-box;
+  height: 37px;
   display: flex;
-  align-items: flex-start;
-  padding-top: 40.76px;
+  align-items: center;
+  padding: 40.76px 24px 33px;
+  justify-content: space-between;
 }
 
 .logo-wrapper {
@@ -13,7 +15,6 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0 24px;
 }
 
 .payAPI_logo {
@@ -140,19 +141,18 @@
 @media (min-width: 768px) {
   .header {
     background-color: #edf3f8;
-    height: 110px;
+    height: 48px;
     display: flex;
-    align-items: flex-start;
-
-    padding-top: 40px;
+    align-items: center;
+    padding: 40px 40px 0;
   }
 
   .logo-wrapper {
     display: flex;
-
     align-items: center;
     width: 100%;
-    padding: 0px 40px;
+    justify-content: start;
+    gap: 64px;
   }
 
   .menu_logo {
@@ -164,8 +164,6 @@
   }
 
   .email__button_header {
-    display: inline-block;
-    left: 24px;
     width: 173px;
     height: 48px;
     border-radius: 24px;
@@ -178,9 +176,9 @@
     cursor: pointer;
     letter-spacing: -0.12px;
     line-height: 17px;
-    display: flex;
+    display: block;
     align-items: center;
-    margin-bottom: 24px;
+    flex-shrink: 0;
   }
 
   .email__button_header span {
@@ -193,22 +191,18 @@
     font-size: 15px;
     font-weight: bold;
     color: #fbfcfe;
-    margin-left: 26.5px;
   }
 
   .header_links {
     display: flex;
-    margin-top: 16px;
-    margin-bottom: auto;
     gap: 40px;
   }
 
   .payAPI_logo {
     width: 135px;
     height: 36px;
-    margin-bottom: 32px;
-    margin-top: 4px;
   }
+
   .Header_link_text {
     color: #36536b;
     display: inline-block;
@@ -221,3 +215,11 @@
 }
 
 /* Tablet layout css ends */
+
+/* Desktop layout starts here */
+
+@media (min-width: 1024px) {
+  .header {
+    padding: 40px 165px 0px;
+  }
+}

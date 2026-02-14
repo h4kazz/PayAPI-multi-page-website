@@ -180,10 +180,12 @@ input::placeholder {
 }
 
 .hero__info form {
-  width: 327px; /* mobile form plotis */
+  width: 327px;
+  /* mobile form plotis */
   display: flex;
   flex-direction: column;
-  align-items: center; /* centruoja email__box ir button */
+  align-items: center;
+  /* centruoja email__box ir button */
 }
 
 /* Hero section styles ends here*/
@@ -450,6 +452,10 @@ input::placeholder {
     margin: 0;
   }
 
+  .email__button:hover {
+    background-color: #da6d97;
+  }
+
   .text__Anyquestions {
     margin-top: 16px;
     width: auto;
@@ -668,10 +674,6 @@ input::placeholder {
     width: 257px;
     height: 498px;
   }
-
-  /* .hero__box {
-    margin-bottom: 74px;
-  } */
 
   .hero__info {
     width: 546px;

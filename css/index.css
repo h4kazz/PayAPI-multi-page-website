@@ -280,12 +280,13 @@ input::placeholder {
 }
 
 .easy-ui__text {
+  box-sizing: content-box;
   font-family: "Public Sans", sans-serif;
   font-size: 15px;
   line-height: 28px;
   text-align: center;
   color: #6c8294;
-  margin-bottom: 92px;
+  padding-bottom: 88px;
   height: 104px;
   letter-spacing: -0.28px;
 }
@@ -354,7 +355,6 @@ input::placeholder {
   flex-direction: column;
   align-items: center;
   background-color: #edf3f8;
-  padding-top: 79px;
   padding-bottom: 10px;
   padding-left: 24px;
   padding-right: 23px;
@@ -471,7 +471,6 @@ input::placeholder {
   .services {
     display: flex;
     flex-direction: row;
-    padding-top: 108px;
     background-color: #edf3f8;
     padding-left: 39px;
     padding-right: 38px;
@@ -518,7 +517,7 @@ input::placeholder {
   /* Easy-ui sections starts here */
 
   .easy-ui {
-    padding-top: 100px;
+    padding: 100px 0 108px;
   }
 
   .easy-ui__container {
@@ -547,6 +546,7 @@ input::placeholder {
   .easy-ui__text2 {
     width: 573px;
     height: 48px;
+    padding-bottom: 0;
     margin: 0 auto;
   }
 
@@ -640,7 +640,6 @@ input::placeholder {
 /* Desktop design starts here */
 
 @media (min-width: 1440px) {
-
   /* Top buble decoration starts here*/
 
   .page-top::before {

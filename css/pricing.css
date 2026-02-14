@@ -258,4 +258,66 @@ hr {
   }
 
   /* Top buble decoration ends here*/
+
+  /* Pricing section starts here*/
+
+  .pricing {
+    padding: 89px 165px 100px;
+  }
+
+  .pricing__header {
+    align-self: flex-start;
+    font-size: 56px;
+    letter-spacing: -0.43px;
+    line-height: 1;
+    padding: 0 0 73px 0;
+  }
+
+  .pricing__plans-wrapper {
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .plan-card {
+    flex-shrink: 0;
+    width: 350px;
+  }
+
+  .plan__header {
+    font-size: 32px;
+    letter-spacing: -0.25px;
+    line-height: 1.25;
+    padding-bottom: 5px;
+  }
+
+  .plan__header,
+  .pricing__paragraph,
+  .pricing__tag,
+  .centered-container,
+  .button__access-wrapper {
+    justify-content: left;
+  }
+
+  .pricing__paragraph {
+    text-align: left;
+    padding-bottom: 30px;
+  }
+
+  .pricing__tag {
+    font-size: 58px;
+    padding-bottom: 5px;
+    letter-spacing: -1.5px;
+  }
+
+  .feature-list {
+    gap: 7px;
+  }
+
+  .centered-container {
+    padding-top: 25px;
+  }
+
+  .button__access-wrapper {
+    padding: 23px 0 0;
+  }
 }

@@ -734,7 +734,7 @@ input::placeholder {
   /* Easy-ui design starts here */
 
   .easy-ui {
-    padding-top: 150px;
+    padding: 150px 0 145px;
   }
 
   .easy-ui__container {
@@ -818,7 +818,7 @@ input::placeholder {
 
   .services {
     gap: 30px;
-    padding: 145px 165px 76px;
+    padding: 0 165px 76px;
   }
 
   .services > article {

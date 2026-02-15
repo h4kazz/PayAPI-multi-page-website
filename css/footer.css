@@ -34,12 +34,28 @@
   text-align: center;
   line-height: 17px;
   letter-spacing: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer__nav > a:hover,
+.footer__nav > a:focus {
+  opacity: 1;
 }
 
 .footer__social {
   display: flex;
   gap: 24px;
   margin-bottom: 55px;
+  color: #fbfcfe;
+}
+
+.footer__social-link {
+  transition: all 0.2s ease-in;
+}
+
+.footer__social-link:hover,
+.footer__social-link:focus {
+  color: #da6d97;
 }
 
 @media (min-width: 768px) {

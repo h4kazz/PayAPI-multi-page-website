@@ -216,6 +216,7 @@ hr {
   .pricing__plans-wrapper {
     display: flex;
     gap: 10px;
+    justify-content: center;
   }
 
   .pricing__header {

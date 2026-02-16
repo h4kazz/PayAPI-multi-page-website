@@ -268,12 +268,20 @@
 
 /* Partners section styles ends here */
 
+.partners-contact__header_tablet {
+  display: none;
+}
+
 /* Mobile design ends here */
 
 /* Tablet design: 768px */
 
 @media (min-width: 768px) {
   /* Top buble decoration starts here*/
+
+  .partners-contact__header {
+    width: 445px;
+  }
 
   .page-top::before {
     top: -464px;
@@ -342,9 +350,7 @@
   }
 }
 
-.partners-contact__header {
-  display: none;
-}
+
 
 /* Tablet partners contact form section end css*/
 

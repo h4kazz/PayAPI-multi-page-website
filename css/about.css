@@ -277,8 +277,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .info-numbers__item {
@@ -407,6 +407,8 @@
     height: 136px;
     margin: 72px auto 0;
     column-gap: 30px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .text_number {

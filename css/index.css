@@ -279,12 +279,13 @@ input::placeholder {
 }
 
 .easy-ui__text {
+  box-sizing: content-box;
   font-family: "Public Sans", sans-serif;
   font-size: 15px;
   line-height: 28px;
   text-align: center;
   color: #6c8294;
-  margin-bottom: 92px;
+  padding-bottom: 88px;
   height: 104px;
   letter-spacing: -0.28px;
 }
@@ -353,7 +354,6 @@ input::placeholder {
   flex-direction: column;
   align-items: center;
   background-color: #edf3f8;
-  padding-top: 79px;
   padding-bottom: 10px;
   padding-left: 24px;
   padding-right: 23px;
@@ -470,7 +470,6 @@ input::placeholder {
   .services {
     display: flex;
     flex-direction: row;
-    padding-top: 108px;
     background-color: #edf3f8;
     padding-left: 39px;
     padding-right: 38px;
@@ -504,12 +503,16 @@ input::placeholder {
     height: 306px;
   }
 
+  .services__header {
+    padding-bottom: 13px;
+  }
+
   .services__paragraph {
     margin: 0 auto;
     width: 100%;
-    letter-spacing: -0.38px;
+    letter-spacing: -0.12px;
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 1.7;
   }
 
   /* Tablet services sections ends here */
@@ -517,7 +520,7 @@ input::placeholder {
   /* Easy-ui sections starts here */
 
   .easy-ui {
-    padding-top: 100px;
+    padding: 100px 0 108px;
   }
 
   .easy-ui__container {
@@ -546,6 +549,7 @@ input::placeholder {
   .easy-ui__text2 {
     width: 573px;
     height: 48px;
+    padding-bottom: 0;
     margin: 0 auto;
   }
 
@@ -733,7 +737,9 @@ input::placeholder {
   /* Easy-ui design starts here */
 
   .easy-ui {
-    padding-top: 150px;
+    padding: 150px 0 145px;
+    background: #edf3f8 url("../assets/shared/desktop/bg-pattern-circle.svg")
+      no-repeat bottom right -60%;
   }
 
   .easy-ui__container {
@@ -812,7 +818,7 @@ input::placeholder {
     z-index: 1;
   }
   
-
+ /* UI/UX buble decoration starts here */
 
   .main::before {
     content: "";
@@ -827,4 +833,75 @@ input::placeholder {
     pointer-events: none;
     z-index: 1;
   }
+}
+
+ /* UI/UX buble decoration ends here */
+
+  /* Easy-ui design ends here */
+
+  /* Services design starts here */
+
+  .services {
+    gap: 30px;
+    padding: 0 165px 76px;
+  }
+
+  .services > article {
+    flex-shrink: 0;
+    width: 350px;
+  }
+
+  .services__icon {
+    width: 106px;
+    height: 106px;
+  }
+
+  .services__paragraph {
+    padding-bottom: 0;
+  }
+
+  /* Services design ends here */
+
+  /* Partners section starts here */
+
+  .partners {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 131px;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+
+  .partners__info {
+    order: 1;
+    max-width: 445px;
+    text-align: left;
+    align-items: flex-start;
+    margin-left: 165px;
+    margin-top: 6px;
+    padding: 0;
+  }
+
+  .logos {
+    order: 2;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 40px 60px;
+    align-items: center;
+    margin-right: 163px;
+    margin-top: 85px;
+    margin-bottom: 87px;
+  }
+
+  .partners__description {
+    margin-bottom: 40px;
+    text-align: left;
+  }
+
+  .partners__button {
+    align-self: flex-start;
+  }
+
+  /* Partners section ends here */
 }

@@ -739,6 +739,8 @@ input::placeholder {
 
   .easy-ui {
     padding: 150px 0 145px;
+    background: #edf3f8 url("../assets/shared/desktop/bg-pattern-circle.svg")
+      no-repeat bottom right -60%;
   }
 
   .easy-ui__container {

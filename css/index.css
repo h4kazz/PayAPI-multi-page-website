@@ -796,11 +796,13 @@ input::placeholder {
   .easy-ui__item1 .easy-ui__title {
     margin-top: 66px;
     margin-bottom: 8px;
+    line-height: 72px;
   }
 
   .easy-ui__item2 .easy-ui__title {
     margin-top: 188px;
     margin-bottom: 8px;
+    line-height: 72px;
   }
 
   .easy-ui__text {

@@ -216,10 +216,11 @@ hr {
   .pricing__plans-wrapper {
     display: flex;
     gap: 10px;
+    justify-content: center;
   }
 
   .pricing__header {
-    padding-bottom: 57px;
+    padding-bottom: 59px;
     padding-top: 86px;
     letter-spacing: -0.37px;
     line-height: 56px;
@@ -227,13 +228,32 @@ hr {
   }
   .plan__header {
     line-height: 40px;
-    padding-bottom: 16px;
+    padding-bottom: 9px;
   }
+
+  .plan-card {
+    flex-shrink: 0;
+    width: 223px;
+  }
+
+  .pricing__paragraph {
+    padding-bottom: 22px;
+  }
+
   .pricing__tag {
     font-size: 48px;
     letter-spacing: -0.37px;
-    padding-bottom: 24px;
+    padding-bottom: 21px;
   }
+
+  .centered-container {
+    padding: 22px 0 26px;
+  }
+
+  .feature-list {
+    gap: 8px;
+  }
+
   .feature-item {
     line-height: 28px;
   }
@@ -258,4 +278,68 @@ hr {
   }
 
   /* Top buble decoration ends here*/
+
+  /* Pricing section starts here*/
+
+  .pricing {
+    padding: 89px 165px 100px;
+  }
+
+  .pricing__header {
+    align-self: flex-start;
+    font-size: 56px;
+    letter-spacing: -0.43px;
+    line-height: 1;
+    padding: 0 0 73px 0;
+  }
+
+  .pricing__plans-wrapper {
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .plan-card {
+    flex-shrink: 0;
+    width: 350px;
+  }
+
+  .plan__header {
+    font-size: 32px;
+    letter-spacing: -0.25px;
+    line-height: 1.25;
+    padding-bottom: 5px;
+  }
+
+  .plan__header,
+  .pricing__paragraph,
+  .pricing__tag,
+  .centered-container,
+  .button__access-wrapper {
+    justify-content: left;
+  }
+
+  .pricing__paragraph {
+    text-align: left;
+    padding-bottom: 30px;
+  }
+
+  .pricing__tag {
+    font-size: 58px;
+    padding-bottom: 5px;
+    letter-spacing: -1.5px;
+  }
+
+  .feature-list {
+    gap: 7px;
+  }
+
+  .centered-container {
+    padding-top: 25px;
+  }
+
+  .button__access-wrapper {
+    padding: 27px 0 0;
+  }
+
+  /* Pricing section ends here*/
 }

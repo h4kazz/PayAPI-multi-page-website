@@ -179,6 +179,12 @@
     display: block;
     align-items: center;
     flex-shrink: 0;
+    transition: all 0.2s ease-in;
+  }
+
+  .email__button_header:hover,
+  .email__button_header:focus {
+    background-color: #da6d97;
   }
 
   .email__button_header span {
@@ -211,6 +217,12 @@
     font-size: 15px;
     line-height: 17px;
     font-family: "Public Sans", sans-serif;
+    transition: all 0.2s ease-in;
+  }
+
+  .Header_link_text:hover,
+  .Header_link_text:focus {
+    opacity: 1;
   }
 }
 

@@ -176,14 +176,13 @@ input::placeholder {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* centruoja h1, form, tekstą */
 }
 
 .hero__info form {
-  width: 327px; /* mobile form plotis */
+  width: 327px;
   display: flex;
   flex-direction: column;
-  align-items: center; /* centruoja email__box ir button */
+  align-items: center;
 }
 
 /* Hero section styles ends here*/
@@ -191,8 +190,10 @@ input::placeholder {
 /* Partners section styles starts here*/
 
 .partners {
-  background-color: #1b262f;
+  background: #1b262f url("../assets/shared/desktop/bg-pattern-circle.svg")
+    no-repeat 50% -602px;
   padding: 5rem 0;
+  display: grid;
   place-items: center;
 }
 
@@ -251,7 +252,7 @@ input::placeholder {
 
 .easy-ui {
   background-color: #edf3f8;
-  padding-top: 80px;
+  padding: 80px 0 65px;
 }
 
 .easy-ui__container {
@@ -280,14 +281,19 @@ input::placeholder {
 }
 
 .easy-ui__text {
+  box-sizing: content-box;
   font-family: "Public Sans", sans-serif;
   font-size: 15px;
   line-height: 28px;
   text-align: center;
   color: #6c8294;
-  margin-bottom: 92px;
+  padding-bottom: 91px;
   height: 104px;
   letter-spacing: -0.28px;
+}
+
+.easy-ui__item2 .easy-ui__text {
+  padding-bottom: 0;
 }
 
 .easy-ui__phones {
@@ -354,7 +360,6 @@ input::placeholder {
   flex-direction: column;
   align-items: center;
   background-color: #edf3f8;
-  padding-top: 79px;
   padding-bottom: 10px;
   padding-left: 24px;
   padding-right: 23px;
@@ -402,7 +407,7 @@ input::placeholder {
     width: 573px;
     min-height: 122px;
     height: auto;
-    margin: 54px 0 16px;
+    margin: 59px 0 12px;
     text-align: center;
   }
 
@@ -415,7 +420,7 @@ input::placeholder {
   }
 
   .email__box {
-    width: 272px;
+    width: 308px;
     height: 48px;
     display: flex;
     align-items: center;
@@ -461,7 +466,6 @@ input::placeholder {
     width: 445px;
     flex-direction: row;
     align-items: stretch;
-    justify-content: center;
   }
 
   /* Tablet hero section ends here */
@@ -471,7 +475,6 @@ input::placeholder {
   .services {
     display: flex;
     flex-direction: row;
-    padding-top: 108px;
     background-color: #edf3f8;
     padding-left: 39px;
     padding-right: 38px;
@@ -505,12 +508,16 @@ input::placeholder {
     height: 306px;
   }
 
+  .services__header {
+    padding-bottom: 13px;
+  }
+
   .services__paragraph {
     margin: 0 auto;
     width: 100%;
-    letter-spacing: -0.38px;
+    letter-spacing: -0.12px;
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 1.7;
   }
 
   /* Tablet services sections ends here */
@@ -518,7 +525,7 @@ input::placeholder {
   /* Easy-ui sections starts here */
 
   .easy-ui {
-    padding-top: 100px;
+    padding: 100px 0 108px;
   }
 
   .easy-ui__container {
@@ -547,6 +554,7 @@ input::placeholder {
   .easy-ui__text2 {
     width: 573px;
     height: 48px;
+    padding-bottom: 0;
     margin: 0 auto;
   }
 
@@ -577,7 +585,7 @@ input::placeholder {
   /* Partners section starts here */
 
   .partners {
-    background-color: #1b262f;
+    background-position: 50% -548px;
     padding: 5rem 0;
     place-items: center;
     padding-bottom: 88px;
@@ -640,7 +648,6 @@ input::placeholder {
 /* Desktop design starts here */
 
 @media (min-width: 1440px) {
-
   /* Top buble decoration starts here*/
 
   .page-top::before {
@@ -728,10 +735,16 @@ input::placeholder {
 
   /* Hero design ends here */
 
+  .partners {
+    background-position: -235px -359px;
+  }
+
   /* Easy-ui design starts here */
 
   .easy-ui {
-    padding-top: 150px;
+    padding: 150px 0 145px;
+    background: #edf3f8 url("../assets/shared/desktop/bg-pattern-circle.svg")
+      no-repeat bottom right -60%;
   }
 
   .easy-ui__container {
@@ -787,11 +800,13 @@ input::placeholder {
   .easy-ui__item1 .easy-ui__title {
     margin-top: 66px;
     margin-bottom: 8px;
+    line-height: 72px;
   }
 
   .easy-ui__item2 .easy-ui__title {
     margin-top: 188px;
     margin-bottom: 8px;
+    line-height: 72px;
   }
 
   .easy-ui__text {
@@ -807,7 +822,33 @@ input::placeholder {
   .easy-ui__phones img {
     width: 100%;
     height: 100%;
+    z-index: 1;
   }
+
+  /* Easy-ui design ends here */
+
+  /* Services design starts here */
+
+  .services {
+    gap: 30px;
+    padding: 0 165px 76px;
+  }
+
+  .services > article {
+    flex-shrink: 0;
+    width: 350px;
+  }
+
+  .services__icon {
+    width: 106px;
+    height: 106px;
+  }
+
+  .services__paragraph {
+    padding-bottom: 0;
+  }
+
+  /* Services design ends here */
 
   /* Partners section starts here */
 

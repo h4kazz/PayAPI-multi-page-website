@@ -264,6 +264,7 @@
   color: #36536b;
   opacity: 75%;
   height: 97px;
+  width: 327px;
 }
 
 /* Partners section styles ends here */
@@ -272,13 +273,22 @@
   display: none;
 }
 
+
+.demo_desktop {
+  display:none;
+}
+.partners-contact__header_tablet {
+  display: none;
+}
 /* Mobile design ends here */
 
 /* Tablet design: 768px */
 
 @media (min-width: 768px) {
   /* Top buble decoration starts here*/
-
+.partners-contact__header {
+  display: none;
+}
   .page-top::before {
     top: -464px;
     left: 505px;
@@ -333,6 +343,7 @@
   }
 
   .partners-contact__header_tablet {
+    display: block;
     width: 445px;
     height: 65px;
     text-align: center;
@@ -346,9 +357,7 @@
   }
 }
 
-.partners-contact__header {
-  display: none;
-}
+
 
 
 

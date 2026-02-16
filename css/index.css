@@ -176,14 +176,13 @@ input::placeholder {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* centruoja h1, form, tekstą */
 }
 
 .hero__info form {
-  width: 327px; /* mobile form plotis */
+  width: 327px;
   display: flex;
   flex-direction: column;
-  align-items: center; /* centruoja email__box ir button */
+  align-items: center;
 }
 
 /* Hero section styles ends here*/
@@ -191,7 +190,8 @@ input::placeholder {
 /* Partners section styles starts here*/
 
 .partners {
-  background-color: #1b262f;
+  background: #1b262f url("../assets/shared/desktop/bg-pattern-circle.svg")
+    no-repeat 50% -602px;
   padding: 5rem 0;
   place-items: center;
 }
@@ -577,7 +577,7 @@ input::placeholder {
   /* Partners section starts here */
 
   .partners {
-    background-color: #1b262f;
+    background-position: 50% -548px;
     padding: 5rem 0;
     place-items: center;
     padding-bottom: 88px;
@@ -726,6 +726,10 @@ input::placeholder {
   }
 
   /* Hero design ends here */
+
+  .partners {
+    background-position: -235px -359px;
+  }
 
   /* Easy-ui design starts here */
 

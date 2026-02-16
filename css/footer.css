@@ -1,6 +1,8 @@
 /* Footer styles */
 .footer {
-  background-color: #1b262f;
+  position: relative;
+  background: #1b262f url("../assets/shared/desktop/bg-pattern-circle.svg")
+    no-repeat 50% 177px;
 }
 .footer__container {
   padding-top: 42px;
@@ -32,12 +34,28 @@
   text-align: center;
   line-height: 17px;
   letter-spacing: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer__nav > a:hover,
+.footer__nav > a:focus {
+  opacity: 1;
 }
 
 .footer__social {
   display: flex;
   gap: 24px;
   margin-bottom: 55px;
+  color: #fbfcfe;
+}
+
+.footer__social-link {
+  transition: all 0.2s ease-in;
+}
+
+.footer__social-link:hover,
+.footer__social-link:focus {
+  color: #da6d97;
 }
 
 @media (min-width: 768px) {
@@ -45,6 +63,7 @@
     height: 100px;
     display: flex;
     align-items: center;
+    background-position: calc(100vw - 390px) -136px;
   }
 
   .footer__container {

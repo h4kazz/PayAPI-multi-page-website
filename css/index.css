@@ -504,12 +504,16 @@ input::placeholder {
     height: 306px;
   }
 
+  .services__header {
+    padding-bottom: 13px;
+  }
+
   .services__paragraph {
     margin: 0 auto;
     width: 100%;
-    letter-spacing: -0.38px;
+    letter-spacing: -0.12px;
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 1.7;
   }
 
   /* Tablet services sections ends here */
@@ -734,7 +738,7 @@ input::placeholder {
   /* Easy-ui design starts here */
 
   .easy-ui {
-    padding-top: 150px;
+    padding: 150px 0 145px;
   }
 
   .easy-ui__container {
@@ -811,6 +815,31 @@ input::placeholder {
     width: 100%;
     height: 100%;
   }
+
+  /* Easy-ui design ends here */
+
+  /* Services design starts here */
+
+  .services {
+    gap: 30px;
+    padding: 0 165px 76px;
+  }
+
+  .services > article {
+    flex-shrink: 0;
+    width: 350px;
+  }
+
+  .services__icon {
+    width: 106px;
+    height: 106px;
+  }
+
+  .services__paragraph {
+    padding-bottom: 0;
+  }
+
+  /* Services design ends here */
 
   /* Partners section starts here */
 
